@@ -13,6 +13,8 @@ def transformacion_mongo(data,responses,califs):
         for auri in auris_marca["phones"]:
             auri["brand"]=auris_marca["name"]
             aux_direcciones[auri['name']]=auri
+            if (type(auri['file']) is list ):
+                auri['file']=auri['file']=0
     for respuesta in responses:
         brand=aux_direcciones[respuesta["earphone"]["name"]]['brand']
         llave=brand+' '+(respuesta["earphone"]["name"].split(' (')[0])
@@ -57,18 +59,36 @@ def transformacion_monet(data):
                 writer.writerow(dict_aux)
 
 def transformacion_neo4j(data,brands):
-    header = ['brand', 'file', 'name','rank','value','price','category','description','tonality_rank','technical_rank','setup','owner','note_wheight']
-    with open('products_neo.csv', 'w+', encoding='UTF8', newline='\n') as f:
-        writer = csv.DictWriter(f, fieldnames=header)
-        writer.writeheader()
-        for auri in data:
-            dict_aux={}
-            for column in header:
-                if column in auri:
-                    dict_aux[column]=auri[column]
-                else:
-                    dict_aux[column]=''
-            writer.writerow(dict_aux)
+    header_pruduct = ['brand', 'file', 'name','rank','value','price','category','description','tonality_rank','technical_rank','setup','owner','note_wheight']
+    header_measurements=['brand','name','side','freq','db']
+    sides=['L','R']
+    with open('measurements_neo.csv', 'w+', encoding='UTF8', newline='\n') as mea:
+        writer_samples = csv.DictWriter(mea, fieldnames=header_measurements)
+        with open('products_neo.csv', 'w+', encoding='UTF8', newline='\n') as f:
+            writer = csv.DictWriter(f, fieldnames=header_pruduct)
+            writer.writeheader()
+            for auri in data:
+                dict_aux={}
+                for column in header_pruduct:
+                    if column in auri:
+                        dict_aux[column]=auri[column]
+                    else:
+                        dict_aux[column]=''
+                writer.writerow(dict_aux)
+                s = set(header_measurements)
+                exclude = [x for x in header_pruduct if x not in s]
+                for column in exclude:
+                    del dict_aux[column]
+                for side in sides:
+                    for freq,db in auri[side].items():
+                        dict_aux['freq']=freq
+                        dict_aux['db']=db
+                        writer_samples.writerow(dict_aux)
+
+
+                    
+                
+
     with open('brands_neo.csv', 'w+',newline='\n') as f:
         write = csv.writer(f)
         write.writerow(['brand'])

@@ -11,7 +11,7 @@ monetdb release 'proyecto_final'
 mclient -d 'proyecto_final'
 create table data_proyecto(
 brand varchar(50),
-file varchar(500),
+file varchar(50),
 name varchar(50),
 freqL varchar(10),
 freqR varchar(10),
