@@ -2,12 +2,12 @@ brand,file,name,rank,value,price,category,description,tonality_rank,technical_ra
 1Custom,1Custom Dual,SA02,C,0,-1,"""Balanced""",Odd take on neutral with a coloured tonality.,C,C+,2BA,Jaben SG demo unit,0
 1Custom,SA03,SA03,C+,0,300,Warm V-shape,Warm lower-mid response balanced out by a forward treble presentation.,C+,C+,3BA,Jaben SG demo unit,0
 1Custom,SA05,SA05,C+,0,-1,Warm V-shape,Warm lower-mid response balanced out by a forward treble presentation.,B-,C+,5BA,Jaben SG demo unit,0
-1MORE,Piston 1More,Piston,,,,,,,,,,
-1MORE,Single Driver,Single Driver,,,,,,,,,,
-1MORE,Dual Driver,Dual Driver,,,,,,,,,,
-1MORE,Triple Driver,Triple Driver,,,,,,,,,,
-1MORE,Quad,Quad Driver,,,,,,,,,,
-1MORE,Stylish,Stylish,,,,,,,,,,
+1MORE,Piston 1More,Piston,D,0,15,V-shaped,"Tonally alright, technically distrastrous.",C-,D,DD,AV One demo unit,0
+1MORE,Single Driver,Single Driver,D,0,40,Bright V-shape,Shouty with bass bleed sprinkled in.,D,D,DD,AV One demo unit,0
+1MORE,Dual Driver,Dual Driver,C-,0,-1,Warm,Somewhat balanced tonality though not the greatest in technical performance.,C-,C-,1BA 1DD,AV One demo unit,0
+1MORE,Triple Driver,Triple Driver,D,0,100,V-shaped,"Subpar tuning with unfortunately thin midrange. Flat bass, not in a good way.",C-,D,2BA 1DD,Stereo SG demo unit,0
+1MORE,Quad,Quad Driver,C-,0,200,"""Balanced""",Okay-ish technical ability in a mainstream tuning. Can get congested.,C,C-,3BA 1DD,Jaben Melbourne demo unit,0
+1MORE,Stylish,Stylish,D,0,100,Bassy,"Pretty standard ""consumer signature"" that panders to those who want bass and nothing else.",D+,D,2DD,E1 demo unit,0
 64 Audio,A2e,A2e,C,0,500,V-shaped,"A rather interesting ""V-but-also-not"" signature. Can get a little hot in the treble.",C,C+,2BA,Music Sanctuary demo unit,0
 64 Audio,A4t,A4t,B,0,1000,Neutral with bass boost,Good tonal balance but lacking in definition and low-level detailing,B+,B,4BA,Music Sanctuary demo unit,0
 64 Audio,A6t,A6t,B+,0,1300,Warm,"Very warm and intimate presentation, though overall tonal balance is somewhat preserved.",A-,B+,6BA,Music Sanctuary demo unit,0
@@ -20,9 +20,9 @@ brand,file,name,rank,value,price,category,description,tonality_rank,technical_ra
 64 Audio,A18S C,A18S (Custom),B+,0,3000,Warm,Warning: the demo unit does not sound like the custom. Demos are sub-bass focused whilecustoms are warm.,B,S-,18BA,Third party custom,0
 64 Audio,0,U18S,,,,,,,,,,
 64 Audio,Duo 64,Duo,,,,,,,,,,
-64 Audio,0,tia Trio,,,,,,,,,,
+64 Audio,0,tia Trio,S-,1,2300,Neutral with bass boost,A more correct sounding version of the Fourte with slight cutbacks in staging and sheerresolution.,S,S-,2BA 1DD,E1 demo unit,1
 64 Audio,0,tia Fourte,B+,0,3600,W-shaped,"Unique sound; high clarity and bass response with immensely wide staging, held back by awonky tonality.",B-,S,3BA 1DD,E1 demo unit,-3
-64 Audio,Fourte Noir,tia Fourte Noir,,,,,,,,,,
+64 Audio,Fourte Noir,tia Fourte Noir,B,0,3800,W-shaped,A bassier and warmer Fourte though also strangely sharper and less technical.,B-,A,3BA 1DD,E1 demo unit,0
 64 Audio,V2,V2 (1964 Ears),,,,,,,,,,
 Truthear,0,Zero,,,,,,,,,,
 7Hz-Salnotes,0,Dioko,,,,,,,,,,
@@ -71,32 +71,32 @@ Advanced,0,GT3,D,0,200,V-shaped,"Sharp, shrill and overall unpleasant.",C-,D,DD,
 Advanced,0,GT3 Superbass,D+,0,200,"""Balanced""",Acceptable resolution though the tone is off in many ways. Filters don't seem to addressthat issue.,C-,D+,DD,Personal unit,0
 Noble,M3 Noble,M3,D+,0,600,V-shaped,Strident and harsh midrange only saved by its somewhat competent bass presentation.,D+,C,1MS 1DD,Munkong Gadget demo unit,0
 FiR,0,M4,A,0,1900,Warm neutral,Too similar to the M3 to be worth the price markup.,A,A,3BA 1DD,Showfloor demo unit,0
-Advanced,M51D,M51D,,,,,,,,,,
-Advanced,M55D,M55D,,,,,,,,,,
+Advanced,M51D,M51D,D,0,400,V-shaped,Typical chifi DD sound. Nothing special.,C-,D,DD,Zeppelin & Co demo unit,0
+Advanced,M55D,M55D,D+,0,650,Bright neutral,An otherwise capable hybrid unfortunately let down by its ridiculous treble spike.,D+,C,4BA 1DD,Zeppelin & Co demo unit,0
 Advanced,Model X Advanced,Model X,D+,0,-1,V-shaped,Extreme treble and bass response to a fault.,D+,D+,DD,Zeppelin & Co demo unit,0
 Advanced,S2000,S2000,C,0,50,V-shaped,Generic V-shape tuning with middling technicalities.,C,C,DD,Zeppelin & Co demo unit,0
 Advanced,Sleeper,Sleeper,D,0,20,Bassy,"Too much bass, not enough clarity, and definitely not enough resolution.",C-,D,DD,Zeppelin & Co demo unit,0
-AKG,N400NC,N400,,,,,,,,,,
+AKG,N400NC,N400,B+,2,155,Harman-neutral,Does away with the timbral issues of the Buds+ and sets itself as a superior.,A+,B,DD,Personal unit,0
 AKG,0,N5005,B,0,1000,Neutral with bass boost,Amazing bass control only let down by plastic timbre.,B+,B,4BA 1DD,Zeppelin & Co demo unit,0
 Alclair,Versa,Versa,C,0,350,Warm V-shape,No further comments; fairly standard warm-ish signature with middling technicalities.,C,C,2BA,Ear.Inc demo unit,0
 Alclair,Studio 3,Studio3,B-,0,750,Neutral with bass boost,Competent tuning if limited by detail retrieval and upper treble extension.,A-,C+,3BA,Ear.Inc demo unit,0
 Alclair,Studio 4,Studio4,C+,0,950,Mild V-shape,"Transients are a little mushy and lacking snap, but at least the tuning's halfway decent.",B,C+,4BA,Ear.Inc demo unit,0
 Alclair,Electro,Electro,C+,0,1500,Neutral with bass boost,"A decent performer in its own right, but nothing that its cheaper brothers aren't alreadydoing.",B,C+,2EST 4BA,Ear.Inc demo unit,0
 Ambient Dynamics,Lyndale,"AD-006 ""Lyndale""",,,,,,,,,,
-Ambient Acoustics,0,AM7,,,,,,,,,,
-Ambient Acoustics,AM16,AM16,,,,,,,,,,
-Ambient Acoustics,AM24,AM24,,,,,,,,,,
-Ambient Acoustics,MAD16,MAD16,,,,,,,,,,
-Ambient Acoustics,MAD24,MAD24,,,,,,,,,,
+Ambient Acoustics,0,AM7,D,0,1750,Variable,"Unreliable switches, mediocre technical ability and the tone is slightly off.",D+,D,7BA,Zeppelin & Co demo unit,0
+Ambient Acoustics,AM16,AM16,D,0,-1,"""Balanced""",Sounds weird and is completely average in pure technicalities. Disappointing.,D,D,16BA,Zeppelin & Co demo unit,0
+Ambient Acoustics,AM24,AM24,D,0,-1,"""Balanced""",See above. Perhaps even slightly worse.,D,D,24BA,Zeppelin & Co demo unit,0
+Ambient Acoustics,MAD16,MAD16,C,0,2500,Warm V-shape,,C-,B,16BA,Review loaner,0
+Ambient Acoustics,MAD24,MAD24,C+,0,3500,Warm,,C,B,24BA,Review loaner,0
 Anker,Liberty 2 Pro,Soundcore Liberty 2 Pro,C+,1,150,V-shaped,"Impressive sub-focused bass response, limited by its shouty and sharp midrange and treble.",B-,C+,1BA 1DD,Third party unit,0
-Anker,Liberty Air 2,Soundcore Liberty Air 2,,,,,,,,,,
-Anthem Five,E2,E2 (Custom),,,,,,,,,,
+Anker,Liberty Air 2,Soundcore Liberty Air 2,C+,1,100,U-shaped,"A lot of sub-bass and a lot of treble. Fun, but very fatiguing.",B-,C+,DD,ConnectIT demo unit,0
+Anthem Five,E2,E2 (Custom),C-,0,150,Bassy,Lots of bass and not a lot of treble to balance it out. Alright midrange tone butresolution is poor.,C,C-,1BA 1DD,Review unit (custom),0
 Anthem Five,E4,E4 (Custom),B-,0,400,Neutral with bass boost,"The all-rounder; nothing stands out but nothing sounds terrible either. Safe, but perhapstoo safe.",B-,B-,4BA,Review custom,0
 Apple,0,AirPods Pro,B-,1,250,Neutral,Somewhat Diffuse-Field tuning with a smooth and natural midrange tonality.,B,B-,DD,Third party unit,0
 Apple,0,AirPods Pro 2,B+,1,250,Mild V-shape,"A more exciting sound signature in comparison to its predecessor, with little in terms ofdrawbacks.",A+,B,DD,Review unit,0
-ARC,0,Pollux,,,,,,,,,,
-ARC,Mira,Mira,,,,,,,,,,
-ARC,Oculus,Oculus,,,,,,,,,,
+ARC,0,Pollux,B-,0,285,Neutral,Well-tuned neutral single-BA IEM.,B,B-,BA,Showfloor demo unit,0
+ARC,Mira,Mira,B,1,410,Neutral,A well-tuned basic setup with strengths in versatility.,B,B,2BA,Showfloor demo unit,0
+ARC,Oculus,Oculus,B-,0,570,Warm,"Relaxing, warm signature with sub-par resolving ability.",B+,B-,3BA,Showfloor demo unit,0
 Aroma,Shock,Shock,D,0,-1,V-shaped,At least its technicalities aren't as bad as its tonality.,D,C-,2EST 2BA,AV One demo unit,0
 Aroma,Star,Star,C+,0,300,V-shaped,"Fairly normal ""single BA tuning"", nothing exceptional nor terrible.",C+,C+,BA,AV One demo unit,0
 Aroma,Early,Early,B-,0,600,Neutral with bass boost,Capable V-shaped hybrid. Could use a little more control in the bass.,B,B-,1BA 1DD,AV One demo unit,0
@@ -108,31 +108,31 @@ Aroma,Yao,Yao,B,0,2500,Warm,"Competent tonality, good technicalities, nothing te
 Aroma,0,Ace,B-,0,3700,Neutral,Really odd take on neutrality. Not the worst... but it's not natural by any means.,C,A-,12BA,AV One demo unit,0
 Astrotec,Delphinus 5,Delphinus 5,D,0,500,"""Balanced""",Sounds plain wrong. Instruments are nowhere close to how they should on proper gear.,D-,C,5BA,Zeppelin & Co demo unit,0
 Astrotec,Volans,Volans,E,0,330,Warm,"Mediocre tuning, virtually zero technicalities, no redeeming qualities.",D,E,DD,Review loaner,0
-Atomic Floyd,Superdarts,SuperDarts,,,,,,,,,,
+Atomic Floyd,Superdarts,SuperDarts,C,0,-1,U-shaped,Focused and sharp treble response with a fairly well-controlled bass response.,C,C,1BA 1DD,Third party unit,0
 Audeze,0,iSine 10,C,0,400,Unique,"Low distortion, high resolution and excellent clarity marred by poor tuning which destroystimbre.",D,S-,Planar,Stereo SG demo unit,0
 Audeze,0,iSine 20,,,,,,,,,,
 Audeze,0,LCD-i3,,,,,,,,,,
 Audeze,LCD-i4,LCD-i4,,,,,,,,,,
-Audeze,Euclid,Euclid,,,,,,,,,,
+Audeze,Euclid,Euclid,B+,0,1300,Mild V-shape,Certainly far better tuned than its predecessors with the same excellent technicalities.,B-,S,Planar,Review unit,0
 Audio,Lokahi,Lokahi,B-,1,240,Neutral with bass boost,,A-,C+,7BA,Third party unit,0
 Audio Genetic,AG2,AG2,B-,0,450,Warm,"Warm, smooth presentation... perhaps a little too smoothed over for my liking.",B+,B-,2BA,Zeppelin & Co demo unit,0
-Audio Technica,ANC300TW,ATH-ANC300TW,,,,,,,,,,
+Audio Technica,ANC300TW,ATH-ANC300TW,C,0,200,V-shaped,"Weirdly bloated, weirdly sibilant, not the best presentation.",C,C,DD,Zeppelin & Co demo unit,0
 Audio Technica,CK3TW,ATH-CK3TW,D,0,100,V-shaped,Loose and uncontrolled bass in combination with a sharp and piercing treble.,D,D,DD,Zeppelin & Co demo unit,0
 Audio Technica,CK5TW,ATH-CKS5TW,D-,0,150,Dark,Muddy bass with virtually nonexistent treble.,D,D-,DD,Zeppelin & Co demo unit,0
-Audio Technica,CKR7TW,ATH-CKR7TW,,,,,,,,,,
+Audio Technica,CKR7TW,ATH-CKR7TW,D-,0,250,Bright,"Shrill, sharp and screams in your face.",D-,D-,DD,ConnectIT demo unit,0
 Audio Technica,E70,ATH-E70,B,1,400,Neutral with bass boost,Clean and clear sound with a slight warm tilt without losing treble sparkle.,B,B,3BA,Jaben Melbourne demo unit,0
-Audio Technica,IEX1,ATH-IEX1,,,,,,,,,,
-Audio Technica,IM01,ATH-IM01,,,,,,,,,,
+Audio Technica,IEX1,ATH-IEX1,D+,0,1200,V-shaped,"Sounds weird, sounds wrong, needs a complete overhaul.",D,C+,2BA 2DD,Stereo SG demo unit,0
+Audio Technica,IM01,ATH-IM01,C-,0,200,Warm,Bloated and congested presentation. Needs more treble extension.,C-,C,BA,Stereo SG demo unit,0
 Audio Technica,IM02,ATH-IM02,B-,0,-1,Warm neutral,"As with most GQ setups: well-balanced, excellent tuning and decent technical ability.",B+,B-,2BA,Third party unit,0
-Audio Technica,IM03,ATH-IM03,,,,,,,,,,
-Audio Technica,LS200,ATH-LS200,,,,,,,,,,
-Audio Technica,LS300,ATH-LS300,,,,,,,,,,
-Audio Technica,LS400,ATH-LS400,,,,,,,,,,
-Audio Technica,LS50,ATH-LS50,,,,,,,,,,
-Audio Technica,SPORT7TW,ATH-SPORT7TW,,,,,,,,,,
-Audiosense,AQ3,AQ3,,,,,,,,,,
+Audio Technica,IM03,ATH-IM03,C-,0,450,Warm V-shape,Decently technical but ruined by its sibilant treble.,C-,C+,3BA,Stereo SG demo unit,0
+Audio Technica,LS200,ATH-LS200,B-,1,250,Neutral,Somewhat Diffuse-Field neutral with its own quirks. Good technical ability.,B+,B-,2BA,Stereo SG demo unit,0
+Audio Technica,LS300,ATH-LS300,C-,0,400,Warm V-shape,Seems alright up till the treble. Very odd treble timbre.,C-,C+,3BA,Stereo SG demo unit,0
+Audio Technica,LS400,ATH-LS400,C-,0,580,Warm V-shape,Seems alright up till the treble. Very odd treble timbre.,C-,C+,4BA,Stereo SG demo unit,0
+Audio Technica,LS50,ATH-LS50,D,0,60,Bassy,Really weird and wonky tonality. Really struggles to resolve... things.,D,D,2DD,Stereo SG demo unit,0
+Audio Technica,SPORT7TW,ATH-SPORT7TW,C+,0,200,U-shaped,"Clean bass and decent midrange tonality, though comes with strident treble.",C+,C+,DD,Zeppelin & Co demo unit,0
+Audiosense,AQ3,AQ3,C+,0,180,Bassy,"Well-controlled bass despite the emphasis, limited by overall resolving ability.",B,C,2BA 1DD,Review unit,0
 Audiosense,AQ4,AQ4,,,,,,,,,,
-Audiosense,AQ7,AQ7,,,,,,,,,,
+Audiosense,AQ7,AQ7,C,0,500,Unique,"Sub-bass boost, odd midrange and rolled-off treble. Not for everyone.",D+,B,6BA 1DD,Review unit,0
 Audiosense,DT100,DT100,C+,1,110,Neutral,,B,C,BA,Review unit,0
 Audiosense,DT200,DT200,B,2,150,Neutral,Excellent tonality. Just excellent tuning overall.,A+,C+,2BA,Zeppelin & Co demo unit,0
 Audiosense,0,DT600,B,1,250,Neutral with bass boost,,B+,B,6BA,Review unit,0
@@ -145,10 +145,10 @@ AVIOT,TE-D01b,TE-D01b,,,,,,,,,,
 AVIOT,TE-D01d,TE-D01d,,,,,,,,,,
 Aya,Siren,Siren,B,0,600,Neutral,"Very neutral, very well-tuned, though not very snappy in the treble.",A-,B,2EST 4BA,Review unit,0
 Noble,Trident,Trident,D+,0,400,Warm V-shape,Strident.,D,C+,3BA,Stereo SG demo unit,0
-AZLA,01R Mk2,01R Mk2,,,,,,,,,,
-AZLA,Horizon,Horizon,,,,,,,,,,
+AZLA,01R Mk2,01R Mk2,C,0,500,V-shaped,Generic V-shape tuning with middling technicalities.,C,C+,DD,Third party unit,0
+AZLA,Horizon,Horizon,C,0,300,V-shaped,Generic V-shape tuning with middling technicalities.,C,C+,DD,Zeppelin & Co demo unit,0
 AZLA,Orta,Orta,C-,0,130,V-shaped,"Uneven mids, peaky treble, not a great listen.",C-,C+,DD,Zeppelin & Co demo unit,0
-B&O,0,BeoPlay E8,,,,,,,,,,
+B&O,0,BeoPlay E8,D,0,350,"""Balanced""",An extremely odd take on a neutral sound signature that simply doesn't work.,D+,D,DD,Zeppelin & Co demo unit,0
 Beyerdynamic,Xelento,Xelento,B+,0,1000,V-shaped,"Like the T8iE, with a little more treble and upper mids.",B,A+,DD,Zeppelin & Co demo unit,0
 Big Bus,Big Bus,Earbuds,,,,,,,,,,
 BGVP,DM6,DM6,C+,0,200,Warm V-shape,"Warm tilt in tone, decent detail retrieval though definition is a little too smoothed over.",C+,B,5BA,Third party unit,0
@@ -160,9 +160,9 @@ BGVP,DS1 Pro,DS1 Pro,C,0,50,V-shaped,Generic V-shape tuning with middling techni
 BGVP,0,ES12,C,0,1500,Variable,Slightly honky midrange tonality with the usual EST tweeter roll-off.,C,B-,4EST 8BA,Oardio demo unit,0
 BGVP,Q2,Q2,C-,0,100,Bright neutral,"Poor bass, thin notes, shouty midrange and sharp treble.",C-,C-,2BA,Review unit,0
 BGVP,0,VG4,,,,,,,,,,
-BLON,BL01,BL-01,,,,,,,,,,
-BLON,0,BL-03,,,,,,,,,,
-BLON,BL05,BL-05,,,,,,,,,,
+BLON,BL01,BL-01,C,0,23,V-shaped,Generic V-shape tuning with middling technicalities.,C,C,DD,unknown,0
+BLON,0,BL-03,C+,2,38,Warm V-shape,Very pleasing and safe tuning with subpar technical detailing.,B,C+,DD,Review unit,0
+BLON,BL05,BL-05,C,0,43,Bright V-shape,A more technical but far less pleasing BL03.,C,C+,DD,Review unit,0
 BLON,A8 BLON,BL-A8 Prometheus,C,0,85,Warm V-shape,,C,C,DD,Review unit,0
 BLON,BL-Max,BL-Max,,,,,,,,,,
 Bose,Soundsport Free,SoundSport Free,B,1,200,Neutral,"Solid tonal balance with wide soundstage, though not the best in detailing.",A-,B-,DD,ConnectIT demo unit,0
@@ -174,23 +174,23 @@ Campfire,0,Andromeda,A,1,1100,Warm U-shape,"Highly coherent, easy-to-love tuning
 Campfire,Andromeda Gold,Andromeda Gold,,,,,,,,,,
 Campfire,Andromeda SS,Andromeda S,,,,,,,,,,
 Campfire,0,Atlas,C+,0,1300,Bassy,Gobs of bass with added treble sparkle that prevents complete congestion and muddiness.,C+,B-,DD,Zeppelin & Co demo unit,4
-Campfire,Ara,Ara,,,,,,,,,,
+Campfire,Ara,Ara,B,0,1300,Bright neutral,"Very resolving set of IEMs, triggers the ""uncanny valley"" effect with its tuning.",C+,S,7BA,Third party unit,0
 Campfire,Comet,Comet,C,0,200,Warm,"Rolled-off at the top end, warm and bassy single-BA sound reminiscent of Final's offerings.",C,C,BA,Zeppelin & Co demo unit,0
 Campfire,0,Dorado,C+,0,1000,Warm,Extremely coherent albeit slightly congested. Great for intimacy lovers.,B-,C+,2BA 1DD,Zeppelin & Co demo unit,0
 Campfire,Equinox,Equinox,D,0,1500,Bassy,Extremely different from the Atlas. It's a lot worse.,D,D,DD,ConnectIT demo unit,0
 Campfire,Holocene,Holocene,,,,,,,,,,
-Campfire,Honeydew,Honeydew,,,,,,,,,,
+Campfire,Honeydew,Honeydew,D-,0,250,Bassy,"Bloated bass, recessed upper-mids, generally off-tone, and simply lacking surface-leveldetailing.",D-,D,DD,ConnectIT demo unit,0
 Campfire,0,IO,E,0,300,"""Balanced""",Tonality and timbre is all sorts of wrong. Lacks the technicalities to redeem it.,E,D,2BA,Third party unit,0
 Campfire,Mammoth,Mammoth,,,,,,,,,,
 Campfire,Orion,Orion,C,0,-1,Warm V-shape,Uneven mids and lacking treble extension.,C,C+,BA,ConnectIT demo unit,0
 Campfire,0,Polaris V1,C+,0,600,V-shaped,Pseudo-Japanese tuning focusing on female vocals and a very lively signature.,C+,B,1BA 1DD,Zeppelin & Co demo unit,0
 Campfire,Polaris V2 S2,Polaris V2,C-,0,500,Bassy,Overwhelming amounts of bass only slightly balanced out by a midtreble emphasis.,C-,C-,1BA 1DD,Third party unit,0
-Campfire,Satsuma,Satsuma,,,,,,,,,,
+Campfire,Satsuma,Satsuma,C,0,200,Warm,Basically a rehashed Comet in a negative profile fit.,C,C,BA,ConnectIT demo unit,0
 Campfire,0,Solaris,B+,0,1500,"""Balanced""",Coherent and well balanced hybrid though with slight midrange hollowness.,B,A,3BA 1DD,E1 demo unit,0
 Campfire,0,Solaris SE,,,,,,,,,,
 Campfire,Solstice,Solstice (universal demo),C-,0,1500,Warm,"Doesn't sound like an Andromeda at all. A muddy, husky mess.",C-,C,5BA,E1 demo unit,0
 Campfire,0,Vega,C+,0,1300,V-shaped,"Powerful bass, sharp treble and muffled midrange.",C+,B-,DD,Zeppelin & Co demo unit,0
-Moondrop,A8,A8,,,,,,,,,,
+Moondrop,A8,A8,A,1,667,Harman-neutral,"An odd but surprisingly decent take on the Harman signature, with added midbass compared tothe S8.",A,A,8BA,Oardio demo unit,0
 CatEar,Mia,Mia,C,0,80,Bassy,Generic V-shape tuning with middling technicalities.,C,C,DD,Review unit,0
 Cayin,Fantasy,Fantasy,C-,0,800,Bright,,D,B-,DD,Zeppelin & Co demo unit,0
 Cayin,YB04,YB04,C-,0,500,"""Balanced""",An odd take on neutrality that sounds weird and uneven.,C-,C,4BA,Zeppelin & Co demo unit,0
@@ -204,7 +204,7 @@ CCA,CST,CST,C,0,20,V-shaped,Generic V-shape tuning with middling technicalities.
 CCA,NRA,NRA,C-,0,20,Warm V-shape,,C-,C-,1MS 1DD,Third party unit,0
 Clariar,i430,i430,,,,,,,,,,
 Clariar,i640,i640,B+,0,1200,V-shaped,,A,B+,6BA,Zeppelin & Co demo unit,0
-Colorfly,Quintet,Quintet,,,,,,,,,,
+Colorfly,Quintet,Quintet,B-,0,900,Mild V-shape,,B-,B,4BA 1DD,Review loaner,0
 CTM,CT200,CT-200,,,,,,,,,,
 CTM,CT300P,CT-300P,,,,,,,,,,
 CTM,0,CT-6E,,,,,,,,,,
@@ -234,7 +234,7 @@ Dethonray,Tender,Tender I,D-,0,640,"""Balanced""",,D-,D,Planar,Review unit,0
 Dita,Answer,Answer,,,,,,,,,,
 Dita,Brass,Brass,,,,,,,,,,
 Dita,0,Dream,A-,0,1800,V-shaped,Excellent resolution and detail let down by its metallic tonality and thin midrange,B,S,DD,Zeppelin & Co demo unit,-3
-Dita,Dream XLS,Dream XLS,,,,,,,,,,
+Dita,Dream XLS,Dream XLS,B,0,1850,Neutral,"Standard Dita house sound with a non-standard bass roll-off. Decent, not amazing.",B,B+,DD,Zeppelin & Co demo unit,0
 Dita,Fealty,Fealty,B,0,1300,Mild V-shape,The more natural sounding and less technical of the Dita twins.,A-,B,DD,Zeppelin & Co demo unit,0
 Dita,Fidelity,Fidelity,B,0,1300,V-shaped,The more technical and less natural sounding of the Dita twins.,B,A-,DD,Zeppelin & Co demo unit,-4
 Dita,Project 71,Project 71,C,0,-1,Warm,Too much of a downward tilt; clarity is lost and overall technicalities aren't up to pareither.,C,B-,DD,Showfloor demo unit,0
@@ -252,8 +252,8 @@ DUNU,DN1000,DN-1000,C+,0,200,Neutral,"Balanced, almost conservative tonality. A 
 DUNU,DN2000,DN-2000,C+,0,300,"""Balanced""","Lacking that necessary bite and forwardness in the upper mids, but otherwise fine.",C+,C+,2BA 1DD,Jaben SG demo unit,0
 DUNU,DN2002,DN-2002,C+,0,380,Warm,Slightly bassier and warmer version of the DN-2000.,C+,C+,2BA 2DD,Jaben SG demo unit,0
 DUNU,DK-2001,DK-2001,B,1,300,V-shaped,Slightly warm-tilted with a bit of treble spiciness.,B+,B,3BA 1DD,Review loaner,0
-DUNU,DK3001 Pro,DK-3001 Pro,,,,,,,,,,
-DUNU,DK4001,DK-4001,,,,,,,,,,
+DUNU,DK3001 Pro,DK-3001 Pro,B+,1,470,Warm neutral,Well-tuned and coherent. Does little wrong and very easy to like.,A-,B+,3BA 1DD,Review unit,0
+DUNU,DK4001,DK-4001,B,0,900,U-shaped,A little shrill with slight cutbacks in tone compared to the DK-3001 Pro.,B,B+,4BA 1DD,Review unit,0
 DUNU,EST 112,EST 112,B,0,490,Neutral,"Good tonality, though the treble extension is its big Achille's Heel.",B+,B,2EST 1BA 1DD,Review unit,0
 DUNU,0,Falcon Pro,C+,0,220,Warm,,C+,B,DD,Review unit,0
 DUNU,Luna,Luna,B,0,1700,Mid-centric,Needs more work on the tuning front.,C+,S-,DD,Review unit,0
@@ -271,10 +271,10 @@ Earsonics,ES2,ES2,C-,0,300,Mid-centric,Slightly honky and lacking extension on b
 Earsonics,ES3,ES3,C-,0,400,U-shaped,"Typical Earsonics weirdness, though bass is well-controlled.",C-,C+,3BA,Zeppelin & Co demo unit,0
 Earsonics,ES5,ES5,C-,0,1150,"""Balanced""","Very, very uneven tuning. No clear direction, just sounds wrong.",D+,B-,5BA,Zeppelin & Co demo unit,0
 Earsonics,Grace,Grace,,,,,,,,,,
-Earsonics,Blade,Blade,,,,,,,,,,
+Earsonics,Blade,Blade,D,0,610,Warm,"Typical Earsonics house sound of ""screwed up midrange"", now with DD bass.",D,C-,2BA 1DD,Zeppelin & Co demo unit,0
 Earsonics,Purple Standard,Purple (Standard),B-,0,1500,Neutral,"Probably the most ""normal-sounding"" Earsonics IEM. Still some tonal problems but nothorrible.",B-,B,5BA,Zeppelin & Co demo unit,0
 Earsonics,ES9,S-EM9,C-,0,1500,"""Balanced""","Honky, no upper mids, not a great experience. ",D,B,9BA,Zeppelin & Co demo unit,0
-Earsonics,Stark,Stark,,,,,,,,,,
+Earsonics,Stark,Stark,D,0,1540,Warm,"Typical Earsonics house sound of ""screwed up midrange"", now with DD bass.",D,C-,4BA 1DD,Zeppelin & Co demo unit,0
 Earsonics,0,Velvet,C-,0,850,U-shaped,Lower-mid recession pushed too far with your usual Earsonics weirdness.,D+,B-,3BA,Zeppelin & Co demo unit,0
 Eartech,Dual,Dual,,,,,,,,,,
 Eartech,Quad Eartech,Quad,,,,,,,,,,
@@ -282,23 +282,23 @@ Eartech,Triple,Triple,,,,,,,,,,
 Edifier,TWS1,TWS1,C,0,50,V-shaped,"Decent bass response, subpar treble, overall passable.",C,C,DD,Third party unit,0
 Edifier,TWS5,TWS5,C+,1,80,V-shaped,"Good tone and bass response, but unfortunately lacking detail retrieval.",B-,C+,DD,Third party unit,0
 Edifier,TWS6,TWS6,C+,1,120,U-shaped,"Well-controlled bass response, though can come off as a bit hollow and pulled-back.",B,C,BA,Third party unit,0
-Effect Audio,Symphony,Symphony,,,,,,,,,,
-Effect Audio,0,King Arthur,,,,,,,,,,
+Effect Audio,Symphony,Symphony,D,0,890,Warm,"A muddy, overly warm sound with that struggles with surface-level detailing.",D,D+,3BA,Third party unit,0
+Effect Audio,0,King Arthur,D-,0,7000,Dark,"A joke, both in price and sound. Nobody's laughing.",D-,D-,16BA,Third party unit,0
 Effect Audio,Axiom,Axiom,,,,,,,,,,
 Elysian,Eros,Eros,C,0,400,Warm,"Typical ""dual driver"" sound. Not very impressive.",C,C,2BA,Showfloor demo unit,0
 Elysian,Artemis,Artemis,C+,0,600,Warm,"Thick, warm and smooth signature without complete sacrifice in technicalities.",B-,C+,3BA,Review unit,0
-Elysian,Artemis V2,Artemis V2,,,,,,,,,,
+Elysian,Artemis V2,Artemis V2,B+,0,700,Neutral,"A detailed, somewhat neutral-sounding IEM that should fit most people's tastes.",B+,A-,3BA,Showfloor demo unit,0
 Elysian,Minerva,Minerva,C-,0,900,Warm V-shape,"Wonky tone with blunted notes, not very revealing.",C-,C-,4BA,Showfloor demo unit,0
 Elysian,Cora V2,Cora V2,,,,,,,,,,
-Elysian,0,Hades V2,,,,,,,,,,
-Elysian,Poseidon,Poseidon,,,,,,,,,,
+Elysian,0,Hades V2,A,0,1550,Variable,Upper-mid forward signature with intense upper treble response.,A,A+,6BA,Showfloor demo unit,0
+Elysian,Poseidon,Poseidon,A-,0,1940,Neutral with bass boost,"Good, inoffensive midrange tone and bass tuning, marred by the lack of low-level detailing.",A,A-,6BA 1DD,Showfloor demo unit,0
 Elysian,Terminator,Terminator,B+,0,-1,Warm V-shape,Well rounded smooth signature that doesn't offend.,B+,A,8BA,Showfloor demo unit,3
-Elysian,0,Terminator V2,,,,,,,,,,
+Elysian,0,Terminator V2,A,0,2500,V-shaped,"A more intense, upper-mid forward Terminator V1 with the same level of technical ability.",A,A+,8BA,Showfloor demo unit,0
 Elysian,0,Diva,,,,,,,,,,
 Elysian,0,Annihilator/DIO,,,,,,,,,,
 Elysian,Elysian X,X,A+,0,4600,V-shaped,,A+,S-,4EST 4BA 1DD,Zeppelin & Co demo unit,0
 Empire Ears,Bravado,Bravado,B,0,700,V-shaped,A basic hybrid sound with big bass and energetic treble.,B,B,1BA 1DD,Zeppelin & Co demo unit,0
-Empire Ears,Bravado Mk2,Bravado Mk2,,,,,,,,,,
+Empire Ears,Bravado Mk2,Bravado Mk2,C,0,800,Bassy,Very recessed and unfocused mids with poor bass control.,C,C,2EST 1BA 1DD,Zeppelin & Co demo unit,0
 Empire Ears,ESR,ESR,B-,0,1000,Bright V-shape,Has the technical chops but is sharp and fatiguing.,B-,B,3BA,Zeppelin & Co demo unit,0
 Empire Ears,ESR Mk2,ESR Mk2,A,1,1100,Warm neutral,Possibly the most pleasant-sounding of the Empire Ears lineup with decent detailing toboot.,S-,A,2EST 3BA,Zeppelin & Co demo unit,0
 Empire Ears,EVR,EVR,B+,0,800,Neutral,A nicely tuned flat-ish signature with good technical ability all around.,B+,B+,3BA,Zeppelin & Co demo unit,-4
@@ -306,16 +306,16 @@ Empire Ears,EVR Mk2,EVR Mk2,E,0,950,Neutral,Not even the vocals; just terribly u
 Empire Ears,Hero,Hero,B+,0,1350,U-shaped,Well-controlled bass emphasis with a less-well-controlled treble emphasis makes this hardto appreciate.,B,A,3BA 1DD,Zeppelin & Co demo unit,0
 Empire Ears,Legend Omega,Legend Omega,,,,,,,,,,
 Empire Ears,0,Legend X,A+,0,2300,V-shaped,High resolution hybrid flawed only by lack of control in the bass regions.,A+,A+,5BA 2DD,Zeppelin & Co demo unit,1
-Empire Ears,Legend X SE,Legend X SE,,,,,,,,,,
-Empire Ears,Legend EVO,Legend EVO,,,,,,,,,,
+Empire Ears,Legend X SE,Legend X SE,A+,0,3250,V-shaped,"A more upper-mid-forward variation of the original Legend X, which could come off asslightly more mid-recessed.",A+,A+,5BA 2DD,BKK Audio demo unit,0
+Empire Ears,Legend EVO,Legend EVO,B+,0,3100,Bassy,,B+,A,5BA 2DD 1BC,Zeppelin & Co demo unit,0
 Empire Ears,Nemesis,Nemesis,B,0,1600,V-shaped,A lot more treble compared to the Vantage.,B,B,3BA 2DD,Zeppelin & Co demo unit,1
 Kinera,Odin,Odin,C,0,800,Neutral,Sounds like a rather basic tuning and a resolution not fitting of its driver count.,C+,C,8BA,Zeppelin & Co demo unit,0
 Empire Ears,0,Phantom,C,0,1800,Warm,"Heavy, rich and decadent. Way too coloured and ultimately a one-trick pony.",C-,B,5BA,Zeppelin & Co demo unit,5
 Empire Ears,Phantom X,Phantom X,,,,,,,,,,
-Empire Ears,Valkyrie,Valkyrie,,,,,,,,,,
-Empire Ears,Valkyrie Mk2,Valkyrie Mk2,,,,,,,,,,
+Empire Ears,Valkyrie,Valkyrie,B,0,1600,V-shaped,Lots of sub-bass with extremely thin mids. Adequate technicalities.,B,A-,1EST 1BA 1DD,Zeppelin & Co demo unit,0
+Empire Ears,Valkyrie Mk2,Valkyrie Mk2,B,0,1600,V-shaped,Not too dissimilar to its predecessor.,B,A-,1EST 1BA 1DD,Zeppelin & Co demo unit,0
 Empire Ears,Vantage,Vantage,B+,0,1400,V-shaped,"A Legend-X-mini, essentially. Nice alternative on a ""budget"".",B+,B+,1BA 2DD,Zeppelin & Co demo unit,3
-Empire Ears,Wraith,Wraith,,,,,,,,,,
+Empire Ears,Wraith,Wraith,C+,0,3500,Dark neutral,A Zeus with almost nonexistent treble and clarity.,C+,B,4EST 7BA,Zeppelin & Co demo unit,0
 Empire Ears,Zeus-XIV S2,Zeus-XIV,C,0,2730,Bright neutral,Top tier detail and resolution with poor tone and timbre reproduction.,D,S,14BA,Music Sanctuary demo unit,-4
 Empire Ears,0,Zeus-XR,,,,,,,,,,
 Eternal Melody,EM2,EM-2,D,0,290,V-shaped,"It just sounds ""meh"" to be. Nothing much to say.",C-,D,2BA,Zeppelin & Co demo unit,0
@@ -343,7 +343,7 @@ Fatfreq,Musician Plus V2,Musician Plus V2,,,,,,,,,,
 Fatfreq,Musician Pro FF,Musician Pro,C-,0,370,Warm,,C-,C,3BA,Showfloor demo unit,0
 Fatfreq,Musician Pro SE,Musician Pro SE,,,,,,,,,,
 HUM,Reference,Reference,B+,0,1300,DF-neutral,Basically sounds like a shallow-fit ER4S.,A-,B+,BA,Zeppelin & Co demo unit,-4
-Fatfreq,Reference Plus,Reference Plus,,,,,,,,,,
+Fatfreq,Reference Plus,Reference Plus,C-,0,220,Warm neutral,,C-,C,2BA,Showfloor demo unit,0
 Fatfreq,Reference Plus V2,Reference Plus V2,,,,,,,,,,
 Fatfreq,Reference Pro,Reference Pro,B-,0,370,Neutral,,B-,B-,3BA,Showfloor demo unit,0
 Fatfreq,Reference Pro SE,Reference Pro SE,,,,,,,,,,
@@ -362,12 +362,12 @@ FAudio,0,Mezzo,,,,,,,,,,
 Fearless,0,Dawn,,,,,,,,,,
 Fearless,ACME8,ACME8,D,0,1100,Bassy,Weird and bloaty bass in conjunction with tonally weird midrange.,D,D,8BA,Music Sanctuary demo unit,0
 Fearless,Barcelona,Barcelona,C,0,120,Bassy,,C-,B-,1BA 1DD,Review unit,0
-Fearless,Crystal Ball,Crystal Ball,,,,,,,,,,
+Fearless,Crystal Ball,Crystal Ball,D,0,200,Warm V-shape,"Definitely evokes real ""Westone"" vibes here.",D,D+,2BA,Music Sanctuary demo unit,0
 Fearless,Hyper S 12,HyperS 12BA,C+,0,900,DF-neutral,Similar if not identical to the S10 Genie.,C+,B,12BA,Music Sanctuary demo unit,0
-Fearless,La Hire,La Hire,,,,,,,,,,
-Fearless,Lancelot,Lancelot,,,,,,,,,,
+Fearless,La Hire,La Hire,B,0,610,Neutral,Well-tuned neutral-style monitor with subpar treble extension.,B,B,2EST 2BA,Music Sanctuary demo unit,0
+Fearless,Lancelot,Lancelot,B-,0,1300,Warm,Rather generic tuning with no redeeming qualities for its price and status.,B-,B+,2EST 6BA,Music Sanctuary demo unit,0
 Fearless,Provence,Provence,C,0,140,Neutral with bass boost,,B-,C,2BA 1DD,Review unit,0
-Fearless,Roland,Roland,,,,,,,,,,
+Fearless,Roland,Roland,C,0,1010,Dark,"An almost total lack of treble results in a muffled, dark presentation.",D+,B,2EST 2BA 1DD,Music Sanctuary demo unit,0
 KZ,S4,S4,D+,0,-1,V-shaped,"Extreme V with very shouty mids, piercing treble and bloated bass.",D+,C,DD,Third party unit,0
 Fearless,S5H,S5H,B,1,330,V-shaped,"Similar if not identical to the S4, though with a little less upper mids.",B+,B,5BA,Music Sanctuary demo unit,0
 Fearless,S5T,S5T,D+,0,330,Warm,Tonally off and lacking details. Not enough bite or energy either.,D+,D+,5BA,Music Sanctuary demo unit,0
@@ -419,7 +419,7 @@ Final Audio,0,E4000,C+,0,180,V-shaped,"Rather standard sounding, non-offensive a
 Final Audio,0,E5000,C+,0,280,Warm,Less treble than the E4000 for a slightly different flavour.,B-,C+,DD,E1 demo unit,0
 Final Audio,F4100,F4100,C,0,350,"""Balanced""","Unique ""Final single BA"" sound; coloured mids and one-note treble.",C,C+,BA,Jaben SG demo unit,0
 Final Audio,F7200,F7200,C,0,550,"""Balanced""","Unique ""Final single BA"" sound; coloured mids and one-note treble.",C,C+,BA,Jaben SG demo unit,0
-Final Audio,FI-DO6SS ANT20,FI-DO6SS ANT20,,,,,,,,,,
+Final Audio,FI-DO6SS ANT20,FI-DO6SS ANT20,C-,0,-1,Warm,"Unique ""Final single BA"" sound; coloured mids, one-note treble and a more downslopingresponse.",C-,C+,BA,Jaben SG demo unit,0
 Final Audio,Heaven 4,Heaven 4,C+,0,170,Warm neutral,"The black sheep of the ""Final single BA"" lineup. More normal sounding and also the warmestsounding.",C+,C+,BA,Jaben SG demo unit,0
 Final Audio,Heaven 7,Heaven 7,C,0,700,Neutral,"Unique ""Final single BA"" sound; coloured mids and one-note treble.",C,C+,BA,Jaben SG demo unit,0
 Final Audio,Heaven 8,Heaven 8,C-,0,700,Warm,"Unique ""Final single BA"" sound; coloured mids, one-note treble and a more downslopingresponse.",C-,C+,BA,Third party unit,0
@@ -457,14 +457,14 @@ Fostex,TM2,TM2,C+,0,300,V-shaped,"A little thin, a little bright and a little sh
 Future Sonics,G10,G10,D,0,220,V-shaped,"Shouty, bassy, yet oddly dull.",D,D,DD,Third party unit,0
 Future Sonics,MG5HX,MG5HX (Custom),C,0,875,V-shaped,Typical V-shaped DD signature with minimal focus on technicalities.,C,B-,DD,Third party custom,0
 Gaudio,Nair,Nair,B+,0,862,Neutral,Well-tuned neutral monitor bottlenecked by timbre and resolution.,A+,B,3BA,Review unit,0
-Gaudio,Clariden,Clariden,,,,,,,,,,
+Gaudio,Clariden,Clariden,B,0,862,V-shaped,"Somewhat reminiscent of a more mid-y Andromeda, though with extra wonkiness.",B,B,3BA,Review unit,0
 Geek Wold,GK3,GK3,E,0,20,Dark,"Incoherent, imaging is all over the place and sounds like a mess.",E,D-,3DD,Third party unit,0
 Geek Wold,GK10,GK10,,,,,,,,,,
 Gold Planar,0,GL12,,,,,,,,,,
 Gold Planar,0,GL20,C-,0,150,Warm,"The usual ""open-backed planar IEM"" sound of ""wonk"".",D-,A+,Planar,Third party unit,0
 Grell,TWS1 Grell,TWS/1,,,,,,,,,,
 Grado,GR8,GR8,C-,0,300,Warm neutral,"Weird mids, somewhat hot treble. Not... great.",C-,C,DD,Jaben SG demo unit,0
-Grado,iGE,iGE,,,,,,,,,,
+Grado,iGE,iGE,C,0,100,U-shaped,Generally mid-scooped with emphases in sub-bass and mid-treble.,C+,C,DD,Jaben SG demo unit,0
 HarmonicDyne,PD1,PD1,,,,,,,,,,
 Heartfield,Acoustic Deer,Acoustic Deer,,,,,,,,,,
 Heir,Tzar 350,Tzar 350,,,,,,,,,,
@@ -518,14 +518,14 @@ IMR,0,RAH,C,0,-1,Variable,Not much point to the filter system when it's just var
 IMR,Semper Pink-pink,Semper (Pink nozzle with pink filter),D+,0,1300,Variable,An incoherent mess with bloated bass and piercing-sharp treble.,D+,C-,2EST Piezo Planar DD,Third party unit,0
 IMR,0,Zenith,C+,0,550,Variable,"Assuming blue filters, probably the best tuned IMR IEM. Every other filter is garbage.",B-,C+,1Piezo 1DD,Third party unit,0
 INAIR,In Air,M360,B-,0,140,V-shaped,A weird cross between an earbud and an IEM. Interesting sound though nothing specialperformance-wise.,B-,B-,DD,Third party unit,0
-InEar,0,ProPhile-8 (PP8),,,,,,,,,,
+InEar,0,ProPhile-8 (PP8),A+,0,1600,Neutral,"Very ""studio"" like sound, heavy priority on technicalities if a little dead-sounding.",S-,A+,8BA,Music Sanctuary demo unit,-1
 InEar,SD2,SD2,,,,,,,,,,
 InEar,SD3,SD3,,,,,,,,,,
 InEar,SD5,SD5,A-,0,1100,Warm V-shape,Excels in timbre reproduction and has an overall pleasant signature.,A,A-,5BA,Music Sanctuary demo unit,2
-InEar,SD4,StageDiver SD4,,,,,,,,,,
+InEar,SD4,StageDiver SD4,C,0,600,Warm V-shape,Needs more upper mids. Weird tonality caused by a mid-scoop.,C-,B,4BA,Music Sanctuary demo unit,0
 Intime,Sora,Sora,C+,1,45,U-shaped,Well controlled bass boost with slightly skewed tonality. Potential is there.,B-,C+,DD,Third party unit,0
 qdc,Fusion,Fusion,B-,0,920,Warm,Dulled transients and lacks detailing. Tonality is merely okay.,B-,B-,4BA 1DD,Music Sanctuary demo unit,0
-Itsfit,0,R3,,,,,,,,,,
+Itsfit,0,R3,B-,0,305,Neutral,"Similar to the lauded UERM, but without its resolution nor sparkle.",B+,B-,3BA,Review unit,0
 Jabra,Active65,Elite Active 65t,B-,1,190,Neutral,"Excellent tonal balance and timbre, though technical ability isn't the best.",B+,B-,DD,ConnectIT demo unit,0
 Jabra,75t,Elite 75t,C-,0,180,U-shaped,"Overdone sub-bass response, sharp treble, thin midrange.",C-,C+,DD,ConnectIT demo unit,0
 Jade,EA3,EA3,,,,,,,,,,
@@ -574,7 +574,7 @@ Kinera,Baldr,Baldr,,,,,,,,,,
 Kinera,BD005,BD005,D,0,30,Bassy,Bass is begging to be reined in on this one.,D,D,1BA 1DD,E1 demo unit,0
 Kinera,BD005 Pro,BD005 Pro,C,0,60,Mild U-shape,Far better balanced in tonality than the original. Could use more damping the treblethough.,C,C,1BA 1DD,ConnectIT demo unit,0
 Kinera,Freya,Freya,,,,,,,,,,
-Kinera,0,IDUN,C,0,140,Warm neutral,"WARNING: wide unit variation noted. Varies between ""weird V-shape"" and ""trying to beneutral"".",C,C,2BA 1DD,E1 demo unit,0
+Kinera,0,IDUN,C-,0,140,V-shaped,"Not a bad hybrid, considering Kinera's track record.",C-,C-,2BA 1DD,Third party unit,0
 Kinera,IDUN Deluxe,IDUN Deluxe,C,0,-1,Neutral,"Doesn't sound too different from the original, though it depends on which unit you get...",C,C,2BA 1DD,Third party unit,0
 Kinera,Nanna,Nanna,B,0,900,Mild V-shape,Surprisingly well-extended for an EST implementation; somewhat blunted notes overall.,A-,B,2EST 1BA 1DD,E1 demo unit,0
 Kinera,Nanna 2.0,Nanna 2.0,B,0,900,V-shaped,Bass is a tad uncontrolled and the mids could use more refinement. The original is arguablysuperior.,B,B,2EST 1BA 1DD,unknown,0
@@ -582,7 +582,7 @@ Kinera,SEED,SEED,D+,0,50,"""Balanced""",Lacking in bass extension and tonally sk
 Kinera,Sif,SIF,C-,0,30,V-shaped,Bloated bass with sharp and sibilant treble.,C-,C,DD,E1 demo unit,0
 Kinera,YH263,YH263,D-,0,70,Bassy,Almost nothing but bass. Zero semblance of any sort of balance.,D-,D-,DD,Review unit,0
 Kiwi Ears,Orchestra,Orchestra,A,2,500,Mild V-shape,Very well-tuned reference-y signature with a mild bass and treble emphasis for addedenergy.,A+,A,8BA,Review unit,0
-Klipsch,T5 True Wireless,T5 True Wireless,,,,,,,,,,
+Klipsch,T5 True Wireless,T5 True Wireless,C,0,200,Neutral with bass boost,A little nasally with muted upper mids with the usual limitations of a TWS.,C,C+,DD,Third party unit,0
 Kumitate,0,KL-Corona,B,0,650,Neutral,Well-tuned with somewhat disappointing technical performance.,A,B-,3BA,Treoo demo unit,0
 Kumitate,0,KL-Focus,A,0,1600,U-shaped,"Selectable bass response with the rest of the FR following a more ""Japanese reference""tuning.",A+,A,5BA,Treoo demo unit,0
 Kumitate,KL-Kanon 6-Minus,KL-Kanon 6-Minus,,,,,,,,,,
@@ -622,12 +622,12 @@ KZ,ZSR,ZSR,C-,0,40,Bright U-shape,Goes way too far with the treble emphasis. Ver
 KZ,ZST,ZST,D,0,30,V-shaped,Decent bass. Odd timbre. Odd tuning.,C-,D-,1BA 1DD,Third party unit,0
 KZ,0,ZSX,C,0,50,V-shaped,Nothing much to say; typical KZ-style tuning with shouty midrange and subpartechnicalities.,C+,C,5BA 1DD,Review unit,0
 Lark Studio,LSX S2,LSX,C+,0,1700,Warm V-shape,Pretty weird tonality with no real direction. No specialties but at least isn't completelyhorrible.,C,B,10BA,Music Sanctuary demo unit,0
-LEAR,BD4-2,LCM-BD4.2,,,,,,,,,,
+LEAR,BD4-2,LCM-BD4.2,C,0,1030,Bright V-shape,"Harsh, overly-textured and extremely fatiguing. Excellent technical ability completely shutdown by tuning and timbre mismatch.",D,A-,4BA 2DD,Treoo demo unit,0
 LEAR,0,NS-U1,,,,,,,,,,
 LG,Tone Free,Tone Free,C,0,150,U-shaped,Sub-bass boosted with a slight downsloping bias. Not the worst in terms of TWS.,C+,C,DD,Zeppelin & Co demo unit,0
 LH Labs,Stella,Stella,,,,,,,,,,
 LH Labs,Verb,Verb,,,,,,,,,,
-Libratone,Track Air Plus,Track Air Plus,,,,,,,,,,
+Libratone,Track Air Plus,Track Air Plus,B+,1,250,Neutral with bass boost,Deep and focused sub-bass response with a surprisingly balanced midrange tonality.,A+,B-,2DD,Review unit,0
 Lime Ears,0,Aether,A,0,1350,Neutral with bass boost,Excellent clarity and tone but marred slightly by slightly lackluster resolution,A,A,5BA,Music Sanctuary demo unit,1
 Lime Ears,0,Aether R,C+,0,1350,Variable,A downgrade from the original with weirder midrange tonality.,C+,B,6BA,Music Sanctuary demo unit,0
 Lime Ears,LE2,LE2,B-,0,600,Neutral,"As with most GQ setups: well-balanced, excellent tuning and decent technical ability.",B+,B-,2BA,Music Sanctuary demo unit,0
@@ -647,7 +647,7 @@ M&D,MW07,MW07,,,,,,,,,,
 M&D,MW07 Plus,MW07 Plus,,,,,,,,,,
 M&D,MW07 Go,MW07 Go,,,,,,,,,,
 Meccaudio,ME20,ME20,C+,0,300,Neutral,"Uneven in the upper mids and treble, but otherwise fine.",C+,C+,2BA 1DD,E1 demo unit,0
-Meccaudio,ME04,ME04,,,,,,,,,,
+Meccaudio,ME04,ME04,C-,0,-1,Neutral,"A not-quite-neutral ""neutral"" monitor.",C-,C-,4BA,E1 demo unit,0
 MEE,M6Pro,M6 Pro,C,0,60,V-shaped,Generic V-shape tuning with middling technicalities.,C,C,DD,E1 demo unit,0
 Meze,0,12 Classics,C,0,70,V-shaped,Generic V-shape tuning with middling technicalities.,C,C+,DD,AV One demo unit,0
 Meze,Rai Solo,Rai Solo,C-,0,200,V-shaped,Very wonky upper-midrange tuning that's also shouty at the same time.,D+,B-,DD,E1 demo unit,0
@@ -655,7 +655,7 @@ Meze,Rai Penta,Rai Penta,B-,0,1100,Warm V-shape,Pleasing tonality with subpar te
 MiM,Dark Magician,Dark Magician,B+,1,500,Neutral,,A-,B+,DD,Third party unit,0
 MMR,Homunculus,Homunculus,C+,0,1700,Warm neutral,"Not the worst thing out there, but also nothing special about it.",C,B,2EST 1BA 1DD,ConnectIT demo unit,0
 MMR,Thummim,Thummim,C+,0,4500,V-shaped,"More resolving than the Homunculus, but also comes with bass bloat.",C,B,4EST 4BA 1DD,ConnectIT demo unit,0
-Monoprice,M-TWE,Monolith M-TWE,,,,,,,,,,
+Monoprice,M-TWE,Monolith M-TWE,C,0,100,V-shaped,"Feels like an attempt on a Harman-ish response, but ends up in an odd V-shape instead.",C+,C,DD,Third party unit,0
 Moondrop,Chu,Chu,B,3,20,Neutral,An extremely well-tuned neutral IEM with a slightly bright and metallic tilt.,A+,C+,DD,Review unit,0
 Moondrop,Quarks RM,Quarks,C+,2,15,Warm DF-neutral,,C+,C+,DD,Review unit,0
 Moondrop,Crescent,Crescent,B,0,30,Neutral with bass boost,Well-executed V-ish signature that's neither harsh nor bloated.,A,C+,DD,Third party unit,0
@@ -667,15 +667,15 @@ Moondrop,Nekocake Acht Acht Limited,Nekocake (Acht Acht Limited),C+,1,50,Neutral
 Moondrop,Aria 2021,Aria,B,3,80,Harman-neutral,A cheaper Starfield.,A-,B,DD,Review unit,0
 Moondrop,Aria SE,Aria Snow Edition,,,,,,,,,,
 Moondrop,Sparks,Sparks,B-,1,90,Harman-neutral,"A tad too shouty and lacking low-level detail, but nothing too egregious as a whole.",A-,C+,DD,Review unit,0
-Moondrop,Starfield,Starfield,,,,,,,,,,
-Moondrop,Kanas Pro,Kanas Pro,,,,,,,,,,
-Moondrop,KXXS,KXXS,,,,,,,,,,
+Moondrop,Starfield,Starfield,B,2,110,Harman-neutral,A cheaper KXXS.,A-,B,DD,Review unit,0
+Moondrop,Kanas Pro,Kanas Pro,B,0,-1,Warm V-shape,"Somewhat Harman-esque in tuning, not the best in terms of resolution.",A-,B-,DD,Review unit,0
+Moondrop,KXXS,KXXS,B,2,190,Harman-neutral,Well-tuned single DD with proper timbre and decent technicalities.,A-,B,DD,Review unit,0
 Moondrop,0,Kato,B+,2,190,Harman-neutral,,A,B+,DD,Review unit,0
 Moondrop,Blessing,Blessing (Original),A-,1,400,Harman-neutral,All rounder that comes the closest to the Harman Target.,A,A-,4BA 1DD,Review unit,-4
-Moondrop,0,Blessing 2,,,,,,,,,,
+Moondrop,0,Blessing 2,A+,3,320,DF-neutral,"Very well tuned from bass to treble, perhaps lacking in the last octaves of extension.",S,A,4BA 1DD,Review unit,0
 Moondrop,0,Blessing2:Dusk,,,,,,,,,,
-Moondrop,Variations,Variations,,,,,,,,,,
-Moondrop,S8,S8,,,,,,,,,,
+Moondrop,Variations,Variations,A+,2,520,Harman-neutral,Sub-bass-focused signature with Moondrop's clean tuning makes this one of the best $500tribrids.,S,A,2EST 2BA 1DD,Review unit,0
+Moondrop,S8,S8,A+,2,700,Harman-neutral,"More faithful to the Harman target compared to the A8, with a smoother bass response.",S-,A+,8BA,Oardio demo unit,0
 Moondrop,Illumination,Illumination,B+,0,800,Warm neutral,"Well-tuned with natural timbre, ultimately marred by subpar detail retrieval anddefinition.",A+,B,DD,Review unit,0
 Moondrop,Solis,Solis,A,0,1100,Warm DF-neutral,A good implementation of the EST drivers with Moondrop's signature tuning specialties.,A,A,4BA 2EST,Review unit,0
 Mofasest,0,M14,A,0,-1,Neutral with bass boost,"Essentially a more tonally ""correct"" version of the ThieAudio V14.",S-,A,14BA,Third party unit,0
@@ -684,7 +684,7 @@ MUNITIO,Bullet In-Ear,Bullet In-Ear,C-,0,-1,V-shaped,Deep V signature with bloat
 NCM,Bella,Bella,B+,0,1050,U-shaped,"Powerful bass combined with clean sounding mids, though perhaps a tad aggressive at times.",B,A,8BA 1DD,Review unit,-1
 Neusonik,direm E3,direm E3,C+,0,50,Harman-neutral,Sounds like an attempt at a MH755.,B,C,DD,Review unit,0
 Neusonik,direm PRO,direm PRO,C+,0,-1,V-shaped,Generic V-shape tuning with middling technicalities.,C+,C+,DD,Review unit,0
-NiceHCK,0,NX7 Pro,,,,,,,,,,
+NiceHCK,0,NX7 Pro,C+,1,132,Bright V-shape,Superb midrange tonality marred by a painfully piercing treble response.,C+,B-,1Piezo 4BA 2DD,Review unit,0
 NiceHCK,0,NX7 Mk3,C+,1,120,U-shaped,Piercing treble probably due to the piezo driver. Competent tonality otherwise.,C+,B-,1Piezo 4BA 2DD,Review unit,0
 NF Audio,NF2u,NF2u,C,0,200,Warm neutral,"Fairly balanced tonality, lacking treble extension and resolution.",C,C,2BA,Review unit,0
 NF Audio,NM2 Plus,NM2+,C+,0,170,Bright V-shape,"Tonality can get a little intense and is fairly underwhelming, though surprisinglyresolving.",C,B,DD,Review unit,0
@@ -697,9 +697,9 @@ Noble,Katana,Katana,A,0,1850,Neutral with laid-back treble,"Like the K10, except
 Noble,0,Khan,B+,0,2300,U-shaped,"Clean yet lean, solid low-end rumble but treble get splashy. Technical but lackingnaturalness.",B,A+,1Piezo 4BA 1DD,Third party unit,-5
 Noble,Sage,Sage,C+,0,600,Warm neutral,Probably the safest tuning in Noble's arsenal. Expectedly limited in sheer technicalities.,B,C,2BA,Stereo SG demo unit,0
 Noble,Savanna,Savanna,C,0,500,Bright neutral,Fairly balanced tuning if not for a rather distracting treble spike.,C,C,4BA,Stereo SG demo unit,0
-Noble,Savant 2,Savant 2,,,,,,,,,,
+Noble,Savant 2,Savant 2,C,0,500,Warm,Decent tonal balance with subpar detail retrieval.,B-,C,2BA,Stereo SG demo unit,0
 Noble,Sultan,Sultan,C+,0,2900,V-shaped,"Somewhat generic tuning, poor technicalities, lacking treble extension, overpriced.",C+,C+,2EST 4BA 1DD,Stereo SG demo unit,0
-Noble,Tux 5,Tux 5,,,,,,,,,,
+Noble,Tux 5,Tux 5,B,0,1300,U-shaped,"Deep, sub-bass focus with potentially sibilant treble. Scooped midrange.",B+,B,4BA 1DD,Stereo SG demo unit,0
 NocturnaL,Atlantis,Atlantis,A-,1,600,Neutral,Reference signature with immense clarity and energy.,A,A-,4BA,Treoo demo unit,-3
 NocturnaL,Avalon,Avalon,C,0,500,Warm V-shape,"Too warm, too bloated, treble spike doesn't do enough to balance it all out.",C,C+,3BA,Treoo demo unit,0
 NocturnaL,Gorham,Gorham,C,0,350,V-shaped,"Somewhat well-tuned with no errant peaks or dips, though limited by its resolution.",B-,C,2BA,Treoo demo unit,0
@@ -713,17 +713,17 @@ NXEars,Sonata,Sonata,B-,1,200,Neutral,"Pretty solid neutral tuning, though not v
 NXEars,Basso NXEars,Basso,D,0,500,Warm V-shape,"Definitely evokes real ""Westone"" vibes here. At least it has treble.",D,D,4BA,Zeppelin & Co demo unit,0
 NXEars,Opera,Opera,D+,0,800,Warm,One word: bloat.,D-,C+,8BA,Zeppelin & Co demo unit,0
 oBravo,0,Cupid,D,0,270,V-shaped,"Incoherent, broken imaging, overly-shouty, sharp treble, just a cacophony. ",D,C-,Planar DD,Review unit,0
-oBravo,Ra C-Cu,Ra C-Cu,,,,,,,,,,
+oBravo,Ra C-Cu,Ra C-Cu,E,0,10000,Unique,An indescribable affront to God and humanity both in sound and pricing.,E,D,1AMT 1DD,Third party unit,0
 oBravo,Ra C,Ra 21 C,D-,0,7000,Unique,"Noted tuning improvements over its predecessor, but still a fundamentally flawed IEMdesign.",D-,D,1AMT 1DD,E1 demo unit,0
-Ocharaku,Co-Donguri Shizuku,Co-Donguri Shizuku,,,,,,,,,,
-Ocharaku,Co-Donguri Shizuku S2,Co-Donguri Shizuku S2,,,,,,,,,,
-Ocharaku,Donguri Ti Plus,Donguri Ti Plus,,,,,,,,,,
+Ocharaku,Co-Donguri Shizuku,Co-Donguri Shizuku,D+,0,-1,V-shaped,"Spiciness as expected of an Ocharaku. More shouty than bright, and weirdly thin.",D+,C,DD,Third party unit,0
+Ocharaku,Co-Donguri Shizuku S2,Co-Donguri Shizuku S2,D+,0,50,V-shaped,"Not an improvement over the original, that's for sure.",D+,C,DD,Third party unit,0
+Ocharaku,Donguri Ti Plus,Donguri Ti Plus,D+,0,500,V-shaped,"Spiciness as expected of an Ocharaku. More shouty than bright, and weirdly thin.",D+,C,DD,Third party unit,0
 Ocharaku,Donguri Keyaki,Donguri-Keyaki,,,,,,,,,,
-Ocharaku,Flat-4 Akakeyaki,Flat-4 Akakeyaki,,,,,,,,,,
-Ocharaku,Flat-4 Akazakura,Flat-4 Akazakura,,,,,,,,,,
-Ocharaku,Flat-4 Kaede Type 1,Flat-4 Kaede Type 1,,,,,,,,,,
-Ocharaku,Flat-4 Kaede Type 2,Flat-4 Kaede Type 2,,,,,,,,,,
-Ocharaku,Flat-4 Ti Plus,Flat-4 Ti Plus,,,,,,,,,,
+Ocharaku,Flat-4 Akakeyaki,Flat-4 Akakeyaki,C-,0,800,Bright,"As with the other Flat-4s, rather weird and imaging with an intensely shouty and unevenmidrange.",D,B-,2DD,Third party unit,0
+Ocharaku,Flat-4 Akazakura,Flat-4 Akazakura,C-,0,800,Bright V-shape,"As with the other Flat-4s, rather weird and imaging with an intensely shouty and unevenmidrange.",D,B-,2DD,Third party unit,0
+Ocharaku,Flat-4 Kaede Type 1,Flat-4 Kaede Type 1,C-,0,-1,Bright V-shape,"As with the other Flat-4s, rather weird and imaging with an intensely shouty and unevenmidrange.",D,B-,2DD,Third party unit,0
+Ocharaku,Flat-4 Kaede Type 2,Flat-4 Kaede Type 2,C-,0,750,Bright,"As with the other Flat-4s, rather weird and imaging with an intensely shouty and unevenmidrange.",D,B-,2DD,Third party unit,0
+Ocharaku,Flat-4 Ti Plus,Flat-4 Ti Plus,C-,0,1000,Bright V-shape,"As with the other Flat-4s, rather weird and imaging with an intensely shouty and unevenmidrange.",D,B-,2DD,Third party unit,0
 Open Audio,Mercury,Mercury,,,,,,,,,,
 Onkyo,E900,E900,C,0,-1,V-shaped,"Sharp and fatiguing, needs a bit more refinement up top.",C,C+,2BA 1DD,Zeppelin & Co demo unit,0
 Origami,Silver,Silver,,,,,,,,,,
@@ -731,7 +731,7 @@ Oriolus,0,Finschi,C,0,180,Bright,"Energetic and bright, overall a well built hyb
 Oriolus,0,Forsteni,C+,0,375,U-shaped,"Spacious staging, good clarity, but thin in the mids and overly sharp.",C+,B-,2BA 1DD,Zeppelin & Co demo unit,0
 Oriolus,Isabellae,Isabellae,B,0,600,Mild V-shape,,B+,B,DD,Third party unit,0
 Oriolus,Mellianus,Mellianus,B+,0,2400,Mild V-shape,"Thin and sterile signature that isn't the most natural, but still technically proficient.",B+,A,10BA,Third party unit,-4
-Oriolus,0,Mk2,,,,,,,,,,
+Oriolus,0,Mk2,B+,0,1100,V-shaped,Lively yet non-fatiguing hybrid experience.,A-,B+,3BA 1DD,Zeppelin & Co demo unit,-2
 Oriolus,Percivali,Percivali,B,0,2000,Neutral with bass boost,Lacking body and very thin in the notes. Not recommended for sub-tenor instruments.,B-,A-,2EST 2BA 1DD,E1 demo unit,0
 Oriolus,Traillii,Traillii,A+,0,6000,Neutral with bass boost,,S-,A+,4EST 8BA,Zeppelin & Co demo unit,0
 Oriveti,Basic,Basic,C-,0,100,Bassy,Lots of sub-bass rumble with an energetic midrange. Roll-off for non-fatigue.,C-,C-,DD,Jaben Melbourne demo unit,0
@@ -786,19 +786,19 @@ RHA,MA750,MA750,C,0,100,Mild V-shape,Somewhat shouty with a conservative bass bo
 RHA,T20i,T20i,C,0,200,V-shaped,Generic V-shape tuning with middling technicalities.,C,C,DD,Stereo SG demo unit,0
 RHA,TrueConnect,TrueConnect,C,0,100,U-shaped,Goes too far with the bass boost and treble can get a little too hot sometimes.,C,C,DD,ConnectIT demo unit,0
 Rhapsodio,Clipper,Clipper,D-,0,55,Bassy,Lots and lots of bass. Slams you in the face with bass.,D,D-,unknown,Zeppelin & Co demo unit,0
-Rhapsodio,Infinity Mk2,Infinity Mk2,,,,,,,,,,
+Rhapsodio,Infinity Mk2,Infinity Mk2,C,0,3600,Warm,Nothing exceptional in either tonality or technical performance.,C+,C,6BA,Review loaner,0
 Rose,BR5 Mk2,BR5 Mk2,C,0,305,Neutral,"Not a bad IEM, though plagued by BA timbre. Not the most technical but it does the job whencalled for it.",C,C,5BA,Third party unit,0
 Rose,Mini2,Mini2,D+,0,110,Warm,It's somewhat natural in timbre but lacks a lot of technical proficiency.,C,D+,2BA,Third party unit,0
 Samsung,Samsung AKG,EO-IG955,,,,,,,,,,
 Samsung,Galaxy Buds,Galaxy Buds,B,2,130,Harman-neutral,A surprisingly well-tuned TWS with the technical chops to boot.,A-,B,DD,Personal unit,0
-Samsung,Buds Plus,Galaxy Buds+ (Buds Plus),,,,,,,,,,
+Samsung,Buds Plus,Galaxy Buds+ (Buds Plus),B,2,150,Harman-neutral,Tuned even closer to the Harman IE target compared to the original.,B+,B,2DD,Personal unit,0
 Samsung,Buds2,Galaxy Buds2,,,,,,,,,,
-Samsung,Galaxy Buds Pro,Galaxy Buds Pro,,,,,,,,,,
+Samsung,Galaxy Buds Pro,Galaxy Buds Pro,B+,2,200,Warm Harman,"More lower mids than your average Harman-tuned IEM, but works in its favour by being morepleasant.",A+,B,2DD,Review unit,0
 Samsung,0,Galaxy Buds2 Pro,B+,2,230,Harman-neutral,A less shouty interpretation of Harman with the same controlled yet impactful bassresponse.,S-,B,2DD,Review unit,0
-Satolex,DH298,Tubomi DH298-A1Bk,,,,,,,,,,
-Satolex,DH302,Tubomi DH302-A1Bs,,,,,,,,,,
-Satolex,DH310,Tubomi DH310-A1SS,,,,,,,,,,
-Satolex,Tumuri,Tumuri DH303-A1,,,,,,,,,,
+Satolex,DH298,Tubomi DH298-A1Bk,C,0,50,V-shaped,Generic V-shape tuning with middling technicalities.,C,C,DD,Zeppelin & Co demo unit,0
+Satolex,DH302,Tubomi DH302-A1Bs,C,0,130,V-shaped,Generic V-shape tuning with middling technicalities.,C,C,DD,Zeppelin & Co demo unit,0
+Satolex,DH310,Tubomi DH310-A1SS,C,0,200,V-shaped,Generic V-shape tuning with middling technicalities.,C,C,DD,Zeppelin & Co demo unit,0
+Satolex,Tumuri,Tumuri DH303-A1,C,0,100,V-shaped,Generic V-shape tuning with middling technicalities.,C,C,DD,Zeppelin & Co demo unit,0
 Seahf,AWK-009,AWK-009,D-,0,15,Bright,"Phasing issues, weirdly incoherent and yet a strangely compelling listen.",D,D-,DD,Third party unit,0
 See Audio,0,Yume,B,2,170,Neutral with bass boost,"Excellent tuning with impeccable bass control, though with mushy transients and lackingdetail.",S-,C+,2BA 1DD,Oardio demo unit,0
 See Audio,0,Yume:Midnight,,,,,,,,,,
@@ -819,8 +819,8 @@ Sennheiser,IE800,IE800,B-,0,800,Warm,Good bass with shimmery treble. Downsloping
 Sennheiser,IE800S,IE800S,B-,0,1200,Warm,Very subtle refinement to the original IE800.,C+,B+,DD,Jaben Melbourne demo unit,0
 Sennheiser,IE900,IE900,B+,0,1300,U-shaped,"Well-resolving DD IEM with excellent treble control, though with somewhat weak mid-highharmonics.",B,A+,DD,Review loaner,0
 Sennheiser,Momentum,Momentum In-Ear,C-,0,100,V-shaped,"Fuzzy, typical V-shaped sound but nothing too egregious.",C-,C-,DD,Zeppelin & Co demo unit,0
-Sennheiser,Momentum TW,Momentum True Wireless,,,,,,,,,,
-Sennheiser,0,Momentum True Wireless 2,,,,,,,,,,
+Sennheiser,Momentum TW,Momentum True Wireless,C-,0,300,V-shaped,Similar but not identical to its wired counterpart. A weirdly tuned V-shaped response.,C-,C,DD,Zeppelin & Co demo unit,0
+Sennheiser,0,Momentum True Wireless 2,C,0,350,Neutral with bass boost,Big improvement in tonality over the stock MTW2. Treble peaks and unruly bass are tamed.,B-,C,DD,Zeppelin & Co demo unit,0
 Sennheiser,MTW3,Momentum True Wireless 3,C+,0,250,Warm,"A much-needed improvement over its predecessors, but still comes with suppressed upperharmonics.",B-,C+,DD,Showfloor demo unit,0
 Shanling,ME100,ME100,C-,0,120,V-shaped,"An odd take on the typical ""chifi DD"" sound, rolling off the bass for extra clarity at theexpense of tonality.",C-,C,DD,Review unit,0
 Shanling,ME200,ME200,B-,1,180,V-shaped,"Slight mid-scoop going on. A little shouty, a little bassy, but not bad overall.",B,B-,1BA 1DD,E1 demo unit,0
@@ -868,7 +868,7 @@ Simphonio,VR1,VR1,C,0,2300,Mild V-shape,,C,B-,DD,Third party unit,0
 Softears,Volume,Volume,,,,,,,,,,
 Softears,RSV,RSV,A,1,730,Neutral with bass boost,"Very well-balanced tonality with surprisingly good timbre, though slightly lackingdefinition.",S,A-,5BA,Review unit,0
 Softears,Turii,Turii,A-,0,1400,Mild V-shape,Resolving and fairly well-tuned dynamic-driver IEM.,A-,A+,DD,Showfloor demo unit,0
-Softears,Cerberus,Cerberus,,,,,,,,,,
+Softears,Cerberus,Cerberus,B+,0,2100,Dark neutral,"Lacking definition in the treble, otherwise a decently balanced tribrid IEM.",B+,B+,2EST 4BA 1DD,Showfloor demo unit,0
 Softears,RS10,RS10,A+,0,2100,Harman-neutral,A little shouty and intense but very resolving and well-defined. A somewhat refinedMoondrop S8.,A+,S-,10BA,Showfloor demo unit,0
 Sonic,Sonic,Sonic,,,,,,,,,,
 Sony,EX510 Filterless,EX510 Filterless,,,,,,,,,,
@@ -902,7 +902,7 @@ Soranik,SK3,SK3,,,,,,,,,,
 Soranik,SP3,SP3,C+,0,250,Bright V-shape,"Thin-sounding, a little strong with the BA timbre and can be fatiguing.",C+,B,3BA,Showfloor demo unit,0
 Soranik,SP3 SE,SP3 SE,,,,,,,,,,
 Sound Linear,3X,Fitz 3X,D,0,-1,"""Balanced""","An attempt at neutrality, but looks like someone forgot that upper-mids exist.",D,D+,3BA,E1 demo unit,0
-Sound Linear,0,Fitz 10 Flat,,,,,,,,,,
+Sound Linear,0,Fitz 10 Flat,D,0,2200,"""Balanced""",It sounds dead and boring. Nothing about it stands out at all.,D,D,10BA,E1 demo unit,0
 Soundmagic,E11,E11,C,0,40,Mild U-shape,A little suppressed in the upper mids but somewhat balanced out by a midtreble emphasis.,C,C,DD,E1 demo unit,0
 Spiral Ears,0,SE5U,C-,0,2000,"""Balanced""","Weird phasing, horrible tonal balance with near zero regard for treble.",D,B,5BA,Third party custom,0
 Stax,0,SR-001 Mk1,C-,0,-1,Mid-centric,Sounds like an old-school on-ear headphone from the 80s.,C-,C-,Electrostatic,Third party unit,0
@@ -925,7 +925,7 @@ Tanchjim,Hana 2021,New Hana (2021),,,,,,,,,,
 Tanchjim,Oxygen,Oxygen,B+,1,270,Harman-neutral,One of the best-tuned DDs tuned somewhat to Harman. Defined and detailed.,A,B+,DD,Review unit,0
 Tanchjim,Darling,Darling,B+,0,420,Warm DF-neutral,A tad shouty but with excellent imaging performance.,B+,B+,2BA 1DD,unknown,0
 Tanchjim,Prism,Prism,B,0,600,V-shaped,,B,B,2BA 1DD,Review unit,0
-Tansio Mirai,0,TSMR-3 Pro,,,,,,,,,,
+Tansio Mirai,0,TSMR-3 Pro,C+,0,200,Variable,"Mostly just variations of ""warm"". Pleasant tuning but lacking detail and clarity.",B,C+,3BA,Review unit,0
 Tansio Mirai,0,TSMR-5,C+,0,430,Warm V-shape,"Alright tonality, decent detailing but nothing that makes it stand out.",B,C+,5BA,Review unit,0
 Tansio Mirai,0,TSMR-12 'Zodiac',,,,,,,,,,
 Tansio Mirai,0,Land,C,0,600,Variable,,C,C+,2EST 3BA 1DD,Review unit,0
@@ -959,9 +959,9 @@ ThieAudio,L5,Legacy 5 (L5),,,,,,,,,,
 ThieAudio,L9,Legacy 9 (L9),,,,,,,,,,
 ThieAudio,Oracle,Oracle,A,2,540,Neutral with bass boost,Functionally similar to the Clairvoyance with slight cutbacks in overall clarity andresolution.,S,A-,2EST 2BA 1DD,Review unit,0
 ThieAudio,Excalibur,Excalibur,A-,1,530,V-shaped,Probably the weakest of the ThieAudio,A-,A,2EST 2BA 1DD,Review unit,0
-ThieAudio,0,Clairvoyance,,,,,,,,,,
-ThieAudio,0,Monarch,,,,,,,,,,
-ThieAudio,Monarch Mk2,Monarch Mk2,,,,,,,,,,
+ThieAudio,0,Clairvoyance,A+,2,700,Neutral with bass boost,"Inoffensive, pleasant tuning specialising in extremely balanced tonality and bass control.",S,A,2EST 5BA 1DD,Review unit,0
+ThieAudio,0,Monarch,S-,2,730,Neutral with bass boost,A clean-sounding monitor with a bass boost near-exclusively in the sub-frequencies.,S-,S,2EST 6BA 1DD,Review unit,0
+ThieAudio,Monarch Mk2,Monarch Mk2,S,2,1000,Neutral with bass boost,,S+,S,2EST 6BA 1DD,Review unit,0
 ThieAudio,0,Voyager 14 (V14),,,,,,,,,,
 ThieAudio,V16 Divinity,V16 Divinity,,,,,,,,,,
 Tiandirenhe,TD1,TD1,C,0,25,V-shaped,Generic V-shaped DD with alright midrange tonality and technicalities.,C,C,DD,Third party unit,0
@@ -1017,30 +1017,30 @@ Ultimate Ears,UE900S,UE900S,C-,0,400,Warm,"Very, very boxy and nasal midrange. L
 Unique Melody,2HT,"2HT ""Terminator""",,,,,,,,,,
 Unique Melody,0,3DD-Ti,E,0,700,Bright,"It's not the quantity of the treble, but the quality. Reserved only for the most esotericof tastes.",E,C+,3DD,Stereo SG demo unit,0
 Unique Melody,Legacy,Legacy,,,,,,,,,,
-Unique Melody,Maestro V2,Maestro V2,,,,,,,,,,
+Unique Melody,Maestro V2,Maestro V2,B+,0,2000,"""Balanced""",It's... there. An IEM that exists. Hard to find words for this one.,B+,A,12BA,Stereo SG demo unit,-3
 Unique Melody,Martian,Martian,B+,0,700,Neutral with bass boost,Well-tuned hybrid with excellent bass response and smooth midrange.,A-,B+,2BA 2DD,Stereo SG demo unit,2
 Unique Melody,0,Mason V3,,,,,,,,,,
-Unique Melody,Mason V3+,Mason V3+,,,,,,,,,,
+Unique Melody,Mason V3+,Mason V3+,A-,0,3200,Bright neutral,"Decent resolution, nothing really special otherwise.",A-,A,16BA,Munkong Gadget demo unit,0
 Unique Melody,Maven,Maven,B,0,2000,V-shaped,"Decently resolving, decent tonality; not bad, not amazing.",B,B+,11BA,Stereo SG demo unit,0
 Unique Melody,Mavis 2,Mavis 2,,,,,,,,,,
 Unique Melody,ME1,ME1,D+,0,760,Warm,"Soft transients, low definition and odd timbre makes this the worst planar I've listenedto.",D-,B,Planar,Stereo SG demo unit,0
-Unique Melody,Merlin V2,Merlin V2,,,,,,,,,,
+Unique Melody,Merlin V2,Merlin V2,B,0,1000,Warm neutral,"Very tasteful and coherent tuning, if lacking in sheer resolution.",A,B-,4BA 1DD,Stereo SG demo unit,0
 Unique Melody,MEXT,MEXT,,,,,,,,,,
 Unique Melody,0,MEST Mk1,,,,,,,,,,
-Unique Melody,MEST Mk2,MEST Mk2,,,,,,,,,,
-Unique Melody,Mini MEST,Mini MEST,,,,,,,,,,
-Unique Melody,Miracle V2,Miracle V2,,,,,,,,,,
+Unique Melody,MEST Mk2,MEST Mk2,A+,0,1500,Neutral with bass boost,"Pretty much the same as the Mk1, though with extra sub-bass presence.",A+,S-,1BC 2EST 4BA 1DD,Third party unit,0
+Unique Melody,Mini MEST,Mini MEST,C+,0,600,V-shaped,Bone conduction driver doesn't seem to be doing much. Just your average V-shaped BA IEM.,C+,B,1BC 3BA,Review unit,0
+Unique Melody,Miracle V2,Miracle V2,B-,0,1050,Mild V-shape,Slight downsloping signature with a treble spike for sparkle.,B-,B,6BA,Stereo SG demo unit,0
 Unknown Customs,UCD-2,UCD-2,,,,,,,,,,
 Unknown Customs,UCD-3,UCD-3,,,,,,,,,,
 Unknown Customs,Quad 2.0,Quad 2.0,,,,,,,,,,
 Unknown Customs,0,Juno,,,,,,,,,,
-Urbanfun,YBF-ISS014,YBF-ISS014,,,,,,,,,,
+Urbanfun,YBF-ISS014,YBF-ISS014,C+,1,60,V-shaped,Clear detailing marred slightly by an almost generic and sharp tuning.,C+,B,DD,Review unit,0
 VE,BIE,Bonus In-Ears,,,,,,,,,,
 VE,Duke C,Duke (Custom),,,,,,,,,,
 VE,Biggie,Monk IE Biggie,F,0,-1,Dark,Absolute mud and congestion. Could work as a subwoofer since it barely plays anything above500Hz anyways.,F,E,DD,Third party unit,0
 VE,Smalls,Monk IE Smalls,E,0,-1,Dark,Sounds exactly like what would happen if you shoved an earbud driver into an IEM housing.,E,E,DD,Third party unit,0
 Veedix,Diamond String,Diamond String,,,,,,,,,,
-Vision Ears,Elysium,Elysium,,,,,,,,,,
+Vision Ears,Elysium,Elysium,A,0,3200,Mild V-shape,First decent implementation of Sonion's EST tweeters.,A-,S-,2EST 1BA 1DD,E1 demo unit,0
 Vision Ears,0,Erlkonig,S-,0,4800,Variable,"Good tonality, high resolution and an overall decent all-rounder.",S-,S,13BA,Third party unit,2
 Vision Ears,Eve 20,EVE 20,B,0,1550,V-shaped,Solid technicalities in tandem with an uninspired tuning.,B-,A-,6BA,E1 demo unit,0
 Vision Ears,EXT,EXT,A-,0,3000,U-shaped,,A-,A-,2EST 2DD,E1 demo unit,0
@@ -1053,7 +1053,7 @@ Vision Ears,VE7,VE7,A,0,1300,Warm neutral,Fairly inoffensive tuning with solid t
 Vision Ears,0,VE8,A+,0,2700,Warm neutral,Extremely coherent signature with a pleasing tuning and high technicalities.,A+,S,8BA,E1 demo unit,2
 VSonic,Ares,Ares,C+,0,200,V-shaped,"The true ""GR07 Bass Edition"", but not necessarily in a positive direction.",C+,C+,DD,LMUE demo unit,0
 VSonic,GR01,GR01,C,0,-1,Neutral,Dead-flat on FR and also dead-flat in imaging and dynamics.,B-,C-,2BA,LMUE demo unit,0
-VSonic,GR07 BE,GR07 Bass Edition,,,,,,,,,,
+VSonic,GR07 BE,GR07 Bass Edition,B-,0,-1,Neutral,"Rather than a bassier GR07, this seems more like a darker GR07.",B-,B,DD,LMUE demo unit,0
 VSonic,GR07 Classic,GR07 Classic,B-,0,-1,Mild V-shape,"Well-balanced, well-tuned, good technicalities. The $100 benchmark since ever.",B-,B,DD,LMUE demo unit,0
 VSonic,GR07 Mk2,GR07 Mk2,,,,,,,,,,
 VSonic,VC02,VC02,C,0,-1,Warm U-shape,Severe upper-mid depression with sibilant treble.,C,C+,DD,LMUE demo unit,0
@@ -1077,20 +1077,20 @@ Westone,W60,W60,D+,0,1000,Warm,"A little better tuned than your average Westone,
 Westone,W80,W80,B-,0,1500,Warm neutral,"Nicely balanced, intimate and slightly dry. Perhaps the least Westone-sounding Westone.",C+,B+,8BA,A2A Melbourne demo unit,3
 W+G,T-One,T-One,,,,,,,,,,
 Whizzer,HE01,HE01,C+,0,80,V-shaped,"A pretty well-done V-shaped tonality, though limited by its resolving ability.",B+,C,DD,Review unit,0
-Whizzer,A-HE03,A-HE03,,,,,,,,,,
+Whizzer,A-HE03,A-HE03,C-,0,160,Warm V-shape,Odd tonality and lacklustre technical ability overall.,C-,C-,2BA 1DD,Review unit,0
 Whizzer,A15,A15,C,0,70,Warm U-shape,"Slightly bloated, slightly sharp, not a great combination.",C,C,DD,Zeppelin & Co demo unit,0
 Whizzer,A15 Pro,A15 Pro,C+,1,120,DF-neutral,"Interesting Etymotic-like DF tuning, though far more thin-sounding and rather shouty.",B,C+,DD,Zeppelin & Co demo unit,0
 XENNS,UP,UP,B,0,700,Neutral with bass boost,,B,B,2EST 4BA 1DD,Review unit,0
 XENNS,Tea 2,Mangird Tea 2,,,,,,,,,,
 Xiaomi,Mi Quad,HiFi Hybrid (Mi Quad),,,,,,,,,,
-Yamaha,EPH100,EPH-100,,,,,,,,,,
+Yamaha,EPH100,EPH-100,C,0,-1,V-shaped,Interesting W-shaped signature with recessed lower and upper midrange.,C,C+,DD,Third party unit,0
 Yanyin,Aladdin,Aladdin,,,,,,,,,,
 Yanyin,0,Canon,,,,,,,,,,
 Yanyin,Moonlight,Moonlight,,,,,,,,,,
 Yinyoo,Ash Yinyoo,Ash,C-,0,20,V-shaped,Wonky tone and sharp treble is not a great combo.,D+,C+,1BA 1DD,Third party unit,0
 Yinyoo,Topaz Filterless,Topaz (filterless),,,,,,,,,,
-Zero Audio,Basso,Carbo Basso ZH-DX210-CB,,,,,,,,,,
-Zero Audio,Doppio,Carbo Doppio ZH-BX700,,,,,,,,,,
-Zero Audio,Singolo,Carbo Singolo ZH-BS150-CS,,,,,,,,,,
-Zero Audio,Tenore,Carbo Tenore ZH-DX200-CT,,,,,,,,,,
-Zero Audio,Duoza,Duoza ZH-DWX10,,,,,,,,,,
+Zero Audio,Basso,Carbo Basso ZH-DX210-CB,C,0,50,V-shaped,Generic V-shape tuning with middling technicalities.,C,C,DD,Zeppelin & Co demo unit,0
+Zero Audio,Doppio,Carbo Doppio ZH-BX700,C-,0,250,Neutral,Severely lacking in treble extension and detailing.,C,C-,2BA,Zeppelin & Co demo unit,0
+Zero Audio,Singolo,Carbo Singolo ZH-BS150-CS,C-,0,170,Warm neutral,Lacks definition and has virtually zero upper treble.,C-,C-,BA,Zeppelin & Co demo unit,0
+Zero Audio,Tenore,Carbo Tenore ZH-DX200-CT,C+,1,40,V-shaped,A well-tuned V-shaped signature that maintains solid midrange and excellent clarity.,C+,C+,DD,Personal unit,0
+Zero Audio,Duoza,Duoza ZH-DWX10,C,0,100,Warm V-shape,A bit too far with the lower-mid emphasis. Some sibilance is noted.,C,C,2DD,Zeppelin & Co demo unit,0

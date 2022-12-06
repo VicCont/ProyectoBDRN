@@ -6,6 +6,7 @@ def transformacion_mongo(data,responses,califs):
     aux_direcciones={}
     direcciones_extras={}
     brands=[]
+    malos=[]
     for extras in califs:
         direcciones_extras[extras['name']]=extras
     for auris_marca in data:
@@ -18,15 +19,17 @@ def transformacion_mongo(data,responses,califs):
     for respuesta in responses:
         brand=aux_direcciones[respuesta["earphone"]["name"]]['brand']
         llave=brand+' '+(respuesta["earphone"]["name"].split(' (')[0])
+        llave=llave.upper().replace("-","")
         if (llave in direcciones_extras):
             aux_copy=copy.deepcopy(direcciones_extras[llave])
             del aux_copy['name']
             aux_direcciones[respuesta["earphone"]["name"]].update(aux_copy)
             del aux_copy
         else:
-            print([llave])
+            malos.append(llave)
         aux_direcciones[respuesta["earphone"]["name"]]["L"]=respuesta[" L"]
         aux_direcciones[respuesta["earphone"]["name"]]["R"]=respuesta[" R"]
+    print(len(malos))
     f=open("insertable_mongo.json","w+")
     aux_direcciones=list(aux_direcciones.values())
     transformacion_neo4j(aux_direcciones,brands)
@@ -64,6 +67,7 @@ def transformacion_neo4j(data,brands):
     sides=['L','R']
     with open('measurements_neo.csv', 'w+', encoding='UTF8', newline='\n') as mea:
         writer_samples = csv.DictWriter(mea, fieldnames=header_measurements)
+        writer_samples.writeheader()
         with open('products_neo.csv', 'w+', encoding='UTF8', newline='\n') as f:
             writer = csv.DictWriter(f, fieldnames=header_pruduct)
             writer.writeheader()
@@ -80,6 +84,7 @@ def transformacion_neo4j(data,brands):
                 for column in exclude:
                     del dict_aux[column]
                 for side in sides:
+                    dict_aux['side']=side
                     for freq,db in auri[side].items():
                         dict_aux['freq']=freq
                         dict_aux['db']=db

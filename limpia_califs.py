@@ -2,6 +2,7 @@ import requests
 from lxml import html
 import json
 import csv
+import copy
 
 def fix_content(dictionary,key,replacement=''):
     if len(dictionary[key])==0:
@@ -31,7 +32,7 @@ if __name__=="__main__":
         dict_aux={
             'rank':x.xpath('td[@class="column-1 dtr-control"]/span/text()')[0],
             'value':x.xpath('td[@class="column-2"]/text()'),
-            'name':x.xpath('td[@class="column-3"]/descendant-or-self::*/text()')[0].replace('\t',"").replace('(','').replace(')','').replace('\n','').split('\\')[0].split('"')[0],
+            'name':str(x.xpath('td[@class="column-3"]/descendant-or-self::*/text()')[0]).upper().replace('\t',"").replace('(','').replace(')','').replace("-","").replace('\n',' ').split('\\')[0].split('"')[0].strip(),
             'price':x.xpath('td[@class="column-4"]/text()')[0],
             'category':x.xpath('td[@class="column-5"]/text()')[0],
             'description':x.xpath('td[@class="column-6"]/text()'),

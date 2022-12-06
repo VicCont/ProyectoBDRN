@@ -3,9 +3,13 @@
 docker cp insertable_mongo.json mongo:/
 docker exec -it mongo mongoimport --db proyecto_final --drop --file insertable_mongo.json 
 
+
 docker cp insertable_monet.csv monetdb:/home/monetdb
 
 docker exec -it monetdb bash
+echo 'aaaaaaaaa'> prueba.txt
+exit 
+
 monetdb create 'proyecto_final'
 monetdb release 'proyecto_final'
 mclient -d 'proyecto_final'
