@@ -86,3 +86,65 @@ select cast(freql as decimal(7,2)) freq, avg(cast(valuel as decimal(9,4))+cast(v
 create table diferencia_extremos as select cast(freql as decimal(7,2)) freq,avg(cast(valuel as decimal(9,4))+cast(valuer as decimal(9,4)))/2 as db from data_proyecto where "like"(category, '%Warm%', '#', true) group by freql order by freq;
 insert into diferencia_extremos select cast(freql as decimal(7,2)) freq, -avg(cast(valuel as decimal(9,4))+cast(valuer as decimal(9,4)))/2 as db from data_proyecto where "like"(category, '%Bright%', '#', true) group by freql order by freq; 
 select freq ,avg(db) from diferencia_extremos group by freq having count(*)>=2;  
+
+
+
+
+
+
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/VicCont/ProyectoBDRN/main/brands_neo.csv" AS row
+CREATE (b:Brands)
+SET b = row;
+#brand,name,side,freq,db
+SET m = row;
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/VicCont/ProyectoBDRN/main/note_weight_neo.csv" AS row
+CREATE (nw:NoteWeight)
+SET nw = row;
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/VicCont/ProyectoBDRN/main/owners_neo.csv" AS row
+CREATE (o:Owners)
+SET o = row;
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/VicCont/ProyectoBDRN/main/products_neo.csv" AS row
+CREATE (p:Products)
+SET p = row
+n.price = toInteger(row.price);
+
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/VicCont/ProyectoBDRN/main/ranks_neo.csv" AS row
+CREATE (r:Ranks)
+SET r = row;
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/VicCont/ProyectoBDRN/main/technical_ranks_neo.csv" AS row
+CREATE (tcr:TechnicalRanks)
+SET tcr = row;
+LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/VicCont/ProyectoBDRN/main/tonality_rank_neo.csv" AS row
+CREATE (tnr:TonalityRank)
+SET tnr = row;
+
+MATCH (p:Products),(c:Owners)
+WHERE p.owner = c.owner
+CREATE (C)-[:OWNS]->(p);
+
+MATCH (p:Products),(c:Ranks)
+WHERE p.rank = c.rank
+CREATE (p)-[:RANKED]->(c);
+
+MATCH (p:Products),(c:Brands)
+WHERE p.brand = c.brand
+CREATE (c)-[:PRODUCES]->(p);
+
+MATCH (o:Owners)-[:OWNS]->(p:Products), (p:Products)-[:RANKED]->(r:Ranks)
+WITH o.owner as owner, r.rank as rank, count( r.rank) as num_rank
+RETURN owner, rank, num_rank 
+ORDER BY rank;
+
+
+MATCH (b:Brands)-[:PRODUCES]->(p:Products), (p:Products)-[:RANKED]->(r:Ranks)
+where p.price is not null and p.price>=0
+RETURN b.brand as brand, avg(p.price) as avg_price
+order by avg_price desc;
+
+MATCH (b:Brands)-[:PRODUCES]->(p:Products), (p:Products)-[:RANKED]->(r:Ranks)
+WITH b.brand as brand, r.rank as rank, count(*) as num_rank
+RETURN  rank, max(num_rank) as avg_price,brand
+order by avg_price;
+
+MATCH (n:Products)
+DETACH DELETE n
