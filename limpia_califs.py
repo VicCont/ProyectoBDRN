@@ -17,7 +17,8 @@ def save_unique_edges(values,file_name,column_name):
         write.writerows([[x] for x in values])
 
 
-if __name__=="__main__":
+# if __name__=="__main__":
+def main():
     f=open('califs.html',encoding='utf-8')
     aux_parser=html.fromstring(f.read())
     f.close()
@@ -63,9 +64,9 @@ if __name__=="__main__":
     save_unique_edges(list(note_wheights.keys()),'note_wheight_neo.csv','note_wheight')
     save_unique_edges(list(ranks.keys()),'ranks_neo.csv','rank')
     save_unique_edges(list(technical_ranks.keys()),'technical_ranks_neo.csv','technical_rank')
-
-    f=open('califs.json','w+',encoding='utf-8')
-    f.write(json.dumps(results))
-    f.close()
+    return results
+    # f=open('califs.json','w+',encoding='utf-8')
+    # f.write(json.dumps(results))
+    # f.close()
 
 

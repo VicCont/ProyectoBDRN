@@ -2,7 +2,7 @@ import json
 import csv
 import copy
 
-def transformacion_mongo(data,responses,califs):
+def transformaciones(data,responses,califs):
     aux_direcciones={}
     direcciones_extras={}
     brands=[]
@@ -25,17 +25,29 @@ def transformacion_mongo(data,responses,califs):
             del aux_copy['name']
             aux_direcciones[respuesta["earphone"]["name"]].update(aux_copy)
             del aux_copy
-        else:
-            malos.append(llave)
         aux_direcciones[respuesta["earphone"]["name"]]["L"]=respuesta[" L"]
         aux_direcciones[respuesta["earphone"]["name"]]["R"]=respuesta[" R"]
-    print(len(malos))
     f=open("insertable_mongo.json","w+")
     aux_direcciones=list(aux_direcciones.values())
     transformacion_neo4j(aux_direcciones,brands)
-    [ f.write(json.dumps(x)) for x in aux_direcciones]
+    [ f.write(json.dumps(x)) for x in transformacion_mongo(copy.deepcopy(aux_direcciones))]
     f.close()
     transformacion_monet(aux_direcciones)
+
+def transformacion_mongo(data):
+    sides=['L','R']
+    fields=['freq','db']
+    for auri in data:
+        for side in sides:
+            list_freq=[]
+            for x in auri[side].items():
+                dict_aux={}     
+                for i in range(2):
+                    dict_aux[fields[i]]=x[i]
+                list_freq.append(dict_aux)
+            auri[side]=list_freq
+
+    return data
 
 def transformacion_monet(data):
     header = ['brand', 'file', 'name', 'freqL','freqR','valueR','valueL','rank','value','price','category','description','tonality_rank','technical_rank','setup','owner','note_wheight']
@@ -112,5 +124,5 @@ if __name__=="__main__":
     f.close()
     responses=sum(responses,[])
     responses=sum(responses,[])
-    transformacion_mongo(copy.deepcopy(data),responses,extras)
+    transformaciones(copy.deepcopy(data),responses,extras)
     
