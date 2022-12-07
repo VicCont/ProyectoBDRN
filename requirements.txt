@@ -1,0 +1,4 @@
+pycryptodomex
+aiohttp
+requests
+lxlm

@@ -1,3 +1,49 @@
+## creamos los dockers
+
+
+
+
+docker run \
+    --name testneo4j \
+    -p7474:7474 -p7687:7687 \
+    -d \
+    -v $HOME/neo4j/data:/data \
+    -v $HOME/neo4j/logs:/logs \
+    -v $HOME/neo4j/import:/var/lib/neo4j/import \
+    -v $HOME/neo4j/plugins:/plugins \
+    --env NEO4J_AUTH=neo4j/test \
+    neo4j:latest
+
+docker run -p 27017:27017 \
+       -v $DATA_DIR:/data/db \
+       -v $EX_DIR:/mongodb-sample-dataset \
+       --name mongo \
+       -d mongo
+sleep 2
+docker exec -it mongo mongosh
+
+docker volume create monet-data
+docker stop monetdb
+docker rm monetdb
+docker run \
+       -v monet-data:/var/monetdb5/dbfarm \
+       -p 50001:50000 \
+       --name monetdb \
+       -d monetdb/monetdb:latest
+
+## creamos el ambiente para el proyecto
+## para virtualenv
+virtualenv proyecto_final
+source proyecto_final/bin/activate
+pip install requirements.txt
+
+conda create -n proyecto_final anaconda
+source activate proyecto_final
+conda install requirements.txt
+
+##obtenemos y generamos insertables
+python scrapper_crin.py
+
 ##insertar monngo
 
 docker cp insertable_mongo.json mongo:/
@@ -89,9 +135,8 @@ select freq ,avg(db) from diferencia_extremos group by freq having count(*)>=2;
 
 
 
-
-
-
+docker exec -it testneo4j bash
+cypher-shell -u neo4j -p test
 LOAD CSV WITH HEADERS FROM "https://raw.githubusercontent.com/VicCont/ProyectoBDRN/main/brands_neo.csv" AS row
 CREATE (b:Brands)
 SET b = row;
@@ -130,10 +175,17 @@ MATCH (p:Products),(c:Brands)
 WHERE p.brand = c.brand
 CREATE (c)-[:PRODUCES]->(p);
 
+:exit
+exit
+
+##Distribución de rank por owner
+
 MATCH (o:Owners)-[:OWNS]->(p:Products), (p:Products)-[:RANKED]->(r:Ranks)
 WITH o.owner as owner, r.rank as rank, count( r.rank) as num_rank
 RETURN owner, rank, num_rank 
 ORDER BY rank;
+
+## Precio promedio por brand
 
 
 MATCH (b:Brands)-[:PRODUCES]->(p:Products), (p:Products)-[:RANKED]->(r:Ranks)
@@ -141,10 +193,14 @@ where p.price is not null and p.price>=0
 RETURN b.brand as brand, avg(p.price) as avg_price
 order by avg_price desc;
 
-MATCH (b:Brands)-[:PRODUCES]->(p:Products), (p:Products)-[:RANKED]->(r:Ranks)
-WITH b.brand as brand, r.rank as rank, count(*) as num_rank
-RETURN  rank, max(num_rank) as avg_price,brand
-order by avg_price;
 
-MATCH (n:Products)
-DETACH DELETE n
+## Marca más popular por rank
+
+MATCH (b:Brands)
+WITH b
+ORDER BY b.brand
+MATCH (b:Brands)-[:BRANDS]->(p:Products), (r:Ranks)-[:RANKING]->(p:Products)
+WITH b.brand as brand, r.rank as ranking, count(b.brand) as popularity
+ORDER BY popularity DESC
+RETURN head(COLLECT(distinct brand)), ranking, max(popularity) as most_popular
+ORDER BY ranking;
